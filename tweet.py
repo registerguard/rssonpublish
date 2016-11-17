@@ -6,13 +6,12 @@ def sendit(feed_url, feed_title):
     
     success = False
     
-    # Get access token from bitly object in secrets.json...
-    # would like to condense this into one call in future...
-    # See: https://github.com/registerguard/rssonpublish/issues/2
-    consumer_key = getSecret('twitter-rob','consumer_key')
-    consumer_secret = getSecret('twitter-rob','consumer_secret')
-    access_token = getSecret('twitter-rob','access_token')
-    access_token_secret = getSecret('twitter-rob','access_token_secret')
+    # Get access token from secrets.json
+    secrets = getSecret('twitter-rob')
+    consumer_key = secrets['consumer_key']
+    consumer_secret = secrets['consumer_secret']
+    access_token = secrets['access_token']
+    access_token_secret = secrets['access_token_secret']
     
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
@@ -26,8 +25,9 @@ def sendit(feed_url, feed_title):
     
     # Comment out this line to not send the tweet
     try:
-        # Comment out line below to not send tweet each test
-        #api.update_status(status=tweet_text)
+        # Comment out line below to not send tweet each test...
+        # would be nice to make this a test variable or something
+        api.update_status(status=tweet_text)
         success = True
         #logger.debug('Success! Tweet sent: ' + tweet_text)
     except tweepy.TweepError, err:
