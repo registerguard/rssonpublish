@@ -1,6 +1,6 @@
 import requests, feedparser
 
-def rss(url, payload):
+def getit(url, payload):
     
     # Make request
     r = requests.get(url, params=payload)
