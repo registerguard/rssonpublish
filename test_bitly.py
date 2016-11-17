@@ -5,6 +5,10 @@ from bitly import getURL
 import urlparse
 
 def test_bitly():
+    
+    # Create var to test if link is shortened
+    short = False
+    
     # Pass in url to test
     feed_url = "http://registerguard.com/rg/sports/34996615-81/duck-pod-all-about-utah-with-kurt-kragthorpe-of-the-salt-lake-tribune.html.csp"
     # Go run script and return url
@@ -13,5 +17,8 @@ def test_bitly():
     # See: https://docs.python.org/2/library/urlparse.html#urlparse.urlparse
     netloc = urlparse.urlparse(url).netloc
     
-    assert (netloc == "rgne.ws")
+    if ((netloc == "rgne.ws") or (netloc == "bit.ly")):
+        short = True
+    
+    assert (short == True)
     #print url
