@@ -2,3 +2,5 @@ secrets.json
 tweet/*
 *.pyc
 .cache
+scratch.py
+id.txt

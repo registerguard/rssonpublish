@@ -28,6 +28,7 @@ def sendit(feed_url, feed_title):
         # Comment out line below to not send tweet each test...
         # would be nice to make this a test variable or something
         #api.update_status(status=tweet_text)
+        print tweet_text
         success = True
         #logger.debug('Success! Tweet sent: ' + tweet_text)
     except tweepy.TweepError, err:
