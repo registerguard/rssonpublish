@@ -1,5 +1,5 @@
-from rss import getit
-from tweet import sendit
+from utilities.rss import getit
+from utilities.tweet import sendit
 import os
 
 ### Set vars
