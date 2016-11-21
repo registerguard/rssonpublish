@@ -1,7 +1,7 @@
 ### Test for tweet.py
 # Should pass for tweet sent
 
-from tweet import sendit
+from utilities.tweet import sendit
 
 def test_tweet():
     

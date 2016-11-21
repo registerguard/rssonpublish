@@ -1,7 +1,7 @@
 # See: http://docs.pytest.org/en/latest/getting-started.html#our-first-test-run
 
-def func(x):
-    return x + 1
+def add(x,y):
+    return x + y
 
 def test_answer():
-    assert func(4) == 5
+    assert add(1,2) == 3

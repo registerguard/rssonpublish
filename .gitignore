@@ -1,6 +1,7 @@
 secrets.json
-tweet/*
+zzz_old/*
 *.pyc
 .cache
 scratch.py
 id.txt
+*.egg-info/*

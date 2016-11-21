@@ -1,7 +1,7 @@
 ### Test for rss.py
 # Should return RSS feed
 
-from rss import getit
+from utilities.rss import getit
 
 def test_rss():
     # Set vars
