@@ -1,9 +1,17 @@
 import requests, feedparser
 
-def getit(url, payload):
+def getrss(url, payload):
     
     # Make request
-    r = requests.get(url, params=payload)
+    # See: http://stackoverflow.com/a/16511493
+    try:
+        r = requests.get(url, params=payload, timeout=5)
+    except requests.exceptions.RequestException as e:
+        # catastrophic error. bail.
+        print e
+        #logger.debug("Requests error: {}".format(e)
+        
+    
     #print r.url
     html = r.text
     
