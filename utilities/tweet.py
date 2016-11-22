@@ -21,7 +21,7 @@ def sendit(feed_url, feed_title):
     shorturl = getURL(feed_url)
     
     # construct string to tweet
-    tweet_text = feed_title + ' ' + shorturl
+    tweet_text = "{0} {1}".format(feed_title, shorturl)
     
     # Comment out this line to not send the tweet
     try:
