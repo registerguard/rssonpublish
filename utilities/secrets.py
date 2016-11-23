@@ -1,9 +1,11 @@
 import json
 
+path = "/Users/rdenton/github/registerguard/rssonpublish"
+
 def getSecret(service, token='null'):
     #print "Service: {}".format(service)
     #print "Token: {}".format(token)
-    with open('secrets.json') as data:
+    with open("{}/secrets.json".format(path)) as data:
         s = json.load(data)
         #print s
         #print s['{}'.format(service)]['{}'.format(token)]

@@ -1,6 +1,6 @@
 from utilities.rss import getrss
 from utilities.tweet import sendit
-import os
+import os, logging
 
 def checknsend(url, payload, id_file):
     
@@ -20,6 +20,7 @@ def checknsend(url, payload, id_file):
         
         if (not os.path.isfile(id_file)):
             open(id_file, 'w')
+            logging.debug("ID file does not exist, making one")
         
         #read past list of ids
         with open(id_file, 'r') as f:
@@ -31,14 +32,16 @@ def checknsend(url, payload, id_file):
             if single_id not in file_data:
                 # set these vars
                 feed_url = feed.entries[i].link
-                feed_title = feed.entries[i].title
+                feed_title = feed.entries[i].title.encode('utf-8')
                 
                 if feed_url and feed_title:
                     #print "{0}: {1} {2}\n\n".format(single_id, feed_title, feed_url)
+                    logging.debug("URL and title present")
                     sendit(feed_url, feed_title)
                     response[single_id] = "Success"
                 else:
                     response[single_id] = "Bad data"
+                    logging.error("{}: No url or title".format(single_id))
                 
             
         

@@ -1,4 +1,4 @@
-import requests, feedparser
+import requests, feedparser, logging
 
 def getrss(url, payload):
     
@@ -6,10 +6,11 @@ def getrss(url, payload):
     # See: http://stackoverflow.com/a/16511493
     try:
         r = requests.get(url, params=payload, timeout=5)
+        logging.debug("rss success")
     except requests.exceptions.RequestException as e:
         # catastrophic error. bail.
         print e
-        #logger.debug("Requests error: {}".format(e)
+        logging.debug("Requests error: {}".format(e))
         
     
     #print r.url

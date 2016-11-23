@@ -1,4 +1,4 @@
-import bitly_api
+import bitly_api, logging
 from secrets import getSecret
 
 def getURL(full_url):
@@ -12,10 +12,11 @@ def getURL(full_url):
         bitlyurl = bitly.shorten(full_url)
         #print bitlyurl
         shorturl = str(bitlyurl[u'url'])
+        logging.debug("ShortURL: {}".format(shorturl))
         #print "success"
     except bitly_api.bitly_api.BitlyError, err:
         shorturl = full_url
-        # logger.debug(err) # How to log from multiple files?
+        logging.error(err)
         #print "Error: {}".format(err)
     
     return shorturl
