@@ -1,7 +1,7 @@
 ### Test for secrets.py
 # Should return length of secret token
 
-from utilities.secrets import getSecret
+from scripts import getSecret
 
 def test_secrets():
     

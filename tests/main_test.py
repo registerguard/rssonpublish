@@ -1,7 +1,7 @@
 ### Test for onpublish/main.py
 # Should pass getting feed and sending tweet
 
-from utilities.onpublish import checknsend
+from scripts import checknsend
 
 def test_main():
     

@@ -5,6 +5,6 @@ zzz_old/*
 scratch.py
 id.txt
 *.egg-info/*
-id_files/*.txt
-!id_file/id_file_example.txt
-
+main/id_files/*.txt
+!main/id_file/id_file_example.txt
+main/logs/*.log

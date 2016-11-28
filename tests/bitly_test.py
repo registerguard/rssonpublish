@@ -1,7 +1,7 @@
 ### Test for bitly.py
 # Should pass for any shortlink with rgne.ws netloc
 
-from utilities.bitly import getURL
+from scripts import getURL
 import urlparse
 
 def test_bitly():
