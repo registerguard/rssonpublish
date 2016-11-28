@@ -1,10 +1,11 @@
 secrets.json
 zzz_old/*
+
 *.pyc
 .cache
 scratch.py
 id.txt
 *.egg-info/*
-main/id_files/*.txt
-!main/id_file/id_file_example.txt
-main/logs/*.log
+
+program/id_files/*.id
+program/logs/*.log

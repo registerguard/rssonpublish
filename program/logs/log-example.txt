@@ -1,0 +1,16 @@
+2016-11-28 15:01:04,319 - DEBUG - ENTER onpublish
+2016-11-28 15:01:04,319 - DEBUG - ENTER rss
+2016-11-28 15:01:04,799 - DEBUG - rss success
+2016-11-28 15:01:04,803 - DEBUG - EXIT rss: Feed length 6
+2016-11-28 15:01:04,804 - DEBUG - URL and title present
+2016-11-28 15:01:04,804 - DEBUG - ENTER tweet
+2016-11-28 15:01:04,804 - DEBUG - ENTER secrets
+2016-11-28 15:01:04,804 - DEBUG - EXIT secrets: 4
+2016-11-28 15:01:04,805 - DEBUG - ENTER bitly
+2016-11-28 15:01:04,805 - DEBUG - ENTER secrets
+2016-11-28 15:01:04,805 - DEBUG - EXIT secrets: 40
+2016-11-28 15:01:05,178 - DEBUG - ShortURL: http://bit.ly/2fFiFwZ
+2016-11-28 15:01:05,178 - DEBUG - EXIT bitly: http://bit.ly/2fFiFwZ
+2016-11-28 15:01:05,178 - DEBUG - Success! Tweet sent: Washington coach Chris Petersen lends support to Mark Helfrich http://bit.ly/2fFiFwZ
+2016-11-28 15:01:05,178 - DEBUG - EXIT tweet: True
+2016-11-28 15:01:05,178 - DEBUG - EXIT onpublish: {u'35035942': 'Success'}
