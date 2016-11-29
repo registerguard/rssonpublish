@@ -1,20 +1,16 @@
 import os, logging, logging.handlers, requests, feedparser, tweepy, json, bitly_api
 
-# Set vars
-path = os.path.join(os.path.abspath(os.path.dirname(__file__)))
-
 # logger --- See down in main() for more
-log_file_dir = "{}/main/logs/".format(path)
-log_level_set = logging.DEBUG
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.ERROR)
 
 # secrets
 def getSecret(service, token='null'):
     logger.debug("ENTER secrets")
+    secrets_path = os.path.join(os.path.abspath(os.path.dirname(__file__)))
     #print "Service: {}".format(service)
     #print "Token: {}".format(token)
-    with open("{}/secrets.json".format(path)) as data:
+    with open("{}/secrets.json".format(secrets_path)) as data:
         s = json.load(data)
         #print s
         #print s['{}'.format(service)]['{}'.format(token)]
@@ -111,21 +107,23 @@ def sendit(feed_url, feed_title):
     
 
 # onpublish
-def main(url, payload, id_file, type):
+def main(program_path, type, url, payload):
     
     # logger --- See up at top for more...
+    log_file_dir = "{}/logs/".format(program_path)
     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
     fileLogger = logging.handlers.RotatingFileHandler(filename=("{0}{1}.log".format(log_file_dir, type)), maxBytes=256*1024, backupCount=5) # 256 x 1024 = 256K
     fileLogger.setFormatter(formatter)
     logger.addHandler(fileLogger)
     # Uncomment below to print to console
-    handler = logging.StreamHandler()
-    handler.setFormatter(formatter)
-    logger.addHandler(handler)
+    #handler = logging.StreamHandler()
+    #handler.setFormatter(formatter)
+    #logger.addHandler(handler)
     
     logger.debug("ENTER onpublish")
     # Set vars
     response = {}
+    id_file = "{0}/id_files/{1}.id".format(program_path, type)
     
     feed = getrss(url, payload)
     
