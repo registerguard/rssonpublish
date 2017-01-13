@@ -1,5 +1,6 @@
 secrets.json
 zzz_old/*
+zzz_old2/*
 
 *.pyc
 .cache
