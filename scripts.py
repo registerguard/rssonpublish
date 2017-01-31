@@ -1,9 +1,7 @@
 import os, logging, logging.handlers, requests, feedparser, tweepy, json, bitly_api
 
-# # logger
-# logger = logging.getLogger(__name__)
-# logger.setLevel(logging.DEBUG)
-# #logger.setLevel(logging.ERROR)
+# logger
+logger = logging.getLogger('logger')
 
 # ----------------------------------------------------------------------------------------
 # SECRETS

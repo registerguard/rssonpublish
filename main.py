@@ -1,5 +1,17 @@
-import os, logging, logging.handlers
-from scripts import getrss, sendit, getsecret
+import os, logging, logging.handlers, sys, importlib
+from scripts import getrss, sendit
+
+# ----------------------------------------------------------------------------------------
+# SET CONFIG
+# ----------------------------------------------------------------------------------------
+program = sys.argv[1]
+
+config = importlib.import_module('{}.config'.format(program))
+data = config.info()
+program_path = data['program_path']
+type = data['type']
+url = data['url'] 
+payload = data['payload']
 
 # onpublish
 # Don't think this needs to be a function
@@ -9,7 +21,7 @@ from scripts import getrss, sendit, getsecret
 # LOGGING INITIALIZATION
 # ----------------------------------------------------------------------------------------
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('logger')
 # set level
 logger.setLevel(logging.DEBUG)
 #logger.setLevel(logging.ERROR)
@@ -33,7 +45,7 @@ logger.addHandler(handler)
 logger.debug("ENTER onpublish")
 # Set vars
 response = {}
-id_file = "{0}/id_files/{1}.id".format(program_path, type)
+id_file = "{0}/{1}.id".format(program_path, type)
 
 feed = getrss(url, payload)
 logger.debug("got feed")
@@ -79,7 +91,6 @@ if feed.entries:
     with open(id_file, 'w') as text_file:
         text_file.write('{}'.format(id_list))
     
-logger.debug("EXIT onpublish: {}".format(response))
+logger.debug("END")
 #return response
-return response
 

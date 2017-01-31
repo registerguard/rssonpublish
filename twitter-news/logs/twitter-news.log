@@ -1,0 +1,93 @@
+2017-01-30 15:57:39,189 - DEBUG - ENTER onpublish
+2017-01-30 16:04:38,626 - DEBUG - ENTER onpublish
+2017-01-30 16:04:39,443 - DEBUG - rss success
+2017-01-30 16:04:39,452 - DEBUG - EXIT rss: Feed length 6
+2017-01-30 16:04:39,452 - DEBUG - got feed
+2017-01-30 16:04:39,452 - DEBUG - in feed.entries
+2017-01-30 16:06:33,761 - DEBUG - ENTER onpublish
+2017-01-30 16:06:33,992 - DEBUG - rss success
+2017-01-30 16:06:34,000 - DEBUG - EXIT rss: Feed length 6
+2017-01-30 16:06:34,000 - DEBUG - got feed
+2017-01-30 16:06:34,000 - DEBUG - in feed.entries
+2017-01-30 16:06:34,000 - DEBUG - ID file does not exist, making one
+2017-01-30 16:06:34,000 - DEBUG - 35231794: Oregon state Rep. Vic Gilliam, afflicted with ALS, resigns
+2017-01-30 16:06:34,000 - DEBUG - URL and title present
+2017-01-30 16:06:34,001 - DEBUG - ENTER tweet
+2017-01-30 16:06:34,001 - DEBUG - EXIT secrets: 4
+2017-01-30 16:06:34,002 - DEBUG - ENTER bitly
+2017-01-30 16:06:34,002 - DEBUG - EXIT secrets: 40
+2017-01-30 16:06:34,440 - DEBUG - ShortURL: http://bit.ly/2kNALjt
+2017-01-30 16:06:34,440 - DEBUG - EXIT bitly: http://bit.ly/2kNALjt
+2017-01-30 16:06:34,440 - ERROR - Success! Tweet sent: Oregon state Rep. Vic Gilliam, afflicted with ALS, resigns http://bit.ly/2kNALjt
+2017-01-30 16:06:34,440 - DEBUG - EXIT tweet: True
+2017-01-30 16:06:34,440 - DEBUG - 35231786: Detectives investigating fatal shooting in Salem
+2017-01-30 16:06:34,440 - DEBUG - URL and title present
+2017-01-30 16:06:34,440 - DEBUG - ENTER tweet
+2017-01-30 16:06:34,440 - DEBUG - EXIT secrets: 4
+2017-01-30 16:06:34,441 - DEBUG - ENTER bitly
+2017-01-30 16:06:34,441 - DEBUG - EXIT secrets: 40
+2017-01-30 16:06:34,825 - DEBUG - ShortURL: http://bit.ly/2kkKh0U
+2017-01-30 16:06:34,825 - DEBUG - EXIT bitly: http://bit.ly/2kkKh0U
+2017-01-30 16:06:34,825 - ERROR - Success! Tweet sent: Detectives investigating fatal shooting in Salem http://bit.ly/2kkKh0U
+2017-01-30 16:06:34,825 - DEBUG - EXIT tweet: True
+2017-01-30 16:06:34,825 - DEBUG - 35231661: LRAPA issues wood smoke ban for Oakridge
+2017-01-30 16:06:34,825 - DEBUG - URL and title present
+2017-01-30 16:06:34,825 - DEBUG - ENTER tweet
+2017-01-30 16:06:34,826 - DEBUG - EXIT secrets: 4
+2017-01-30 16:06:34,826 - DEBUG - ENTER bitly
+2017-01-30 16:06:34,826 - DEBUG - EXIT secrets: 40
+2017-01-30 16:06:35,210 - DEBUG - ShortURL: http://bit.ly/2kNuyny
+2017-01-30 16:06:35,210 - DEBUG - EXIT bitly: http://bit.ly/2kNuyny
+2017-01-30 16:06:35,210 - ERROR - Success! Tweet sent: LRAPA issues wood smoke ban for Oakridge http://bit.ly/2kNuyny
+2017-01-30 16:06:35,210 - DEBUG - EXIT tweet: True
+2017-01-30 16:06:35,210 - DEBUG - 35231117: Thousands of refugees have come to Oregon in recent years under program Trump has suspended
+2017-01-30 16:06:35,210 - DEBUG - URL and title present
+2017-01-30 16:06:35,210 - DEBUG - ENTER tweet
+2017-01-30 16:06:35,211 - DEBUG - EXIT secrets: 4
+2017-01-30 16:06:35,211 - DEBUG - ENTER bitly
+2017-01-30 16:06:35,211 - DEBUG - EXIT secrets: 40
+2017-01-30 16:06:35,626 - DEBUG - ShortURL: http://bit.ly/2kNoM5s
+2017-01-30 16:06:35,626 - DEBUG - EXIT bitly: http://bit.ly/2kNoM5s
+2017-01-30 16:06:35,626 - ERROR - Success! Tweet sent: Thousands of refugees have come to Oregon in recent years under program Trump has suspended http://bit.ly/2kNoM5s
+2017-01-30 16:06:35,626 - DEBUG - EXIT tweet: True
+2017-01-30 16:06:35,626 - DEBUG - 35231509: Eugene man killed, teenager critically injured in crash
+2017-01-30 16:06:35,627 - DEBUG - URL and title present
+2017-01-30 16:06:35,627 - DEBUG - ENTER tweet
+2017-01-30 16:06:35,627 - DEBUG - EXIT secrets: 4
+2017-01-30 16:06:35,627 - DEBUG - ENTER bitly
+2017-01-30 16:06:35,627 - DEBUG - EXIT secrets: 40
+2017-01-30 16:06:36,051 - DEBUG - ShortURL: http://bit.ly/2kkPRQG
+2017-01-30 16:06:36,051 - DEBUG - EXIT bitly: http://bit.ly/2kkPRQG
+2017-01-30 16:06:36,051 - ERROR - Success! Tweet sent: Eugene man killed, teenager critically injured in crash http://bit.ly/2kkPRQG
+2017-01-30 16:06:36,051 - DEBUG - EXIT tweet: True
+2017-01-30 16:06:36,052 - DEBUG - 35230661: Local districts craft plans to deal with lost instructional hours
+2017-01-30 16:06:36,052 - DEBUG - URL and title present
+2017-01-30 16:06:36,052 - DEBUG - ENTER tweet
+2017-01-30 16:06:36,052 - DEBUG - EXIT secrets: 4
+2017-01-30 16:06:36,053 - DEBUG - ENTER bitly
+2017-01-30 16:06:36,053 - DEBUG - EXIT secrets: 40
+2017-01-30 16:06:36,449 - DEBUG - ShortURL: http://bit.ly/2kN9X2O
+2017-01-30 16:06:36,449 - DEBUG - EXIT bitly: http://bit.ly/2kN9X2O
+2017-01-30 16:06:36,449 - ERROR - Success! Tweet sent: Local districts craft plans to deal with lost instructional hours http://bit.ly/2kN9X2O
+2017-01-30 16:06:36,449 - DEBUG - EXIT tweet: True
+2017-01-30 16:06:36,449 - DEBUG - 35231015: Trump’s immigration orders disrupt hundreds of students and faculty, university presidents say
+2017-01-30 16:06:36,449 - DEBUG - URL and title present
+2017-01-30 16:06:36,449 - DEBUG - ENTER tweet
+2017-01-30 16:06:36,450 - DEBUG - EXIT secrets: 4
+2017-01-30 16:06:36,450 - DEBUG - ENTER bitly
+2017-01-30 16:06:36,450 - DEBUG - EXIT secrets: 40
+2017-01-30 16:06:36,879 - DEBUG - ShortURL: http://bit.ly/2kND5GT
+2017-01-30 16:06:36,879 - DEBUG - EXIT bitly: http://bit.ly/2kND5GT
+2017-01-30 16:06:36,879 - ERROR - Success! Tweet sent: Trump’s immigration orders disrupt hundreds of students and faculty, university presidents say http://bit.ly/2kND5GT
+2017-01-30 16:06:36,879 - DEBUG - EXIT tweet: True
+2017-01-30 16:06:36,879 - DEBUG - 35230482: Air stagnation advisory in effect for the Willamette Valley until Tuesday
+2017-01-30 16:06:36,879 - DEBUG - URL and title present
+2017-01-30 16:06:36,880 - DEBUG - ENTER tweet
+2017-01-30 16:06:36,880 - DEBUG - EXIT secrets: 4
+2017-01-30 16:06:36,880 - DEBUG - ENTER bitly
+2017-01-30 16:06:36,880 - DEBUG - EXIT secrets: 40
+2017-01-30 16:06:37,256 - DEBUG - ShortURL: http://bit.ly/2kjDmF0
+2017-01-30 16:06:37,256 - DEBUG - EXIT bitly: http://bit.ly/2kjDmF0
+2017-01-30 16:06:37,256 - ERROR - Success! Tweet sent: Air stagnation advisory in effect for the Willamette Valley until Tuesday http://bit.ly/2kjDmF0
+2017-01-30 16:06:37,256 - DEBUG - EXIT tweet: True
+2017-01-30 16:06:37,256 - DEBUG - END
