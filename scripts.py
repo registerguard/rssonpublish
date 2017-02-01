@@ -78,9 +78,41 @@ def getURL(full_url):
 # TWEET
 # ----------------------------------------------------------------------------------------
 
-def sendit(feed_url, feed_title):
+def trim(hed):
+    # While head is longer than 105 characters
+    while len(hed) > 105:
+        # Split string into list of words
+        hedl = hed.split()
+        # Pop off the last word
+        hedl.pop()
+        # Join list back into string
+        hed = " ".join(hedl)
+        # Repeat popping words until string less than 105 characters
+    # Add ellipsis character
+    ell = "…"
+    #ell = ell.encode('utf-8')
+    hed = hed + ell
+    return hed
+
+def hashtag(type):
+    hasht = ""
+    if type == "twitter-news":
+        hasht = " #rgnews"
+    elif type == "twitter-sports":
+        hasht = " #rgsports"
+    elif type == "twitter-staging":
+        hasht = " #rgstage"
+    return hasht
+
+def sendit(feed_url, feed_title, type):
     logger.debug("ENTER tweet")
     success = False
+    
+    if len(feed_title) > 105:
+        feed_title = trim(feed_title)
+        logger.debug("trim headline")
+    
+    hasht = hashtag(type)
     
     # Get access token from secrets.json
     secrets = getSecret('twitter-rob')
@@ -97,13 +129,13 @@ def sendit(feed_url, feed_title):
     shorturl = getURL(feed_url)
     
     # construct string to tweet
-    tweet_text = "{0} {1}".format(feed_title, shorturl)
+    tweet_text = "{0}{1} {2}".format(feed_title, hasht, shorturl)
     
     # Comment out this line to not send the tweet
     try:
         # Comment out line below to not send tweet each test...
         # would be nice to make this a test variable or something
-        #api.update_status(status=tweet_text)
+        #api.update_status(status=tweet_text) # Uncomment this to go live
         #print tweet_text
         success = True
         #logger.debug('Success! Tweet sent: ' + tweet_text)

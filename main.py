@@ -13,10 +13,6 @@ type = data['type']
 url = data['url'] 
 payload = data['payload']
 
-# onpublish
-# Don't think this needs to be a function
-#def main(program_path, type, url, payload):
-
 # ----------------------------------------------------------------------------------------
 # LOGGING INITIALIZATION
 # ----------------------------------------------------------------------------------------
@@ -79,7 +75,7 @@ if feed.entries:
             if feed_url and feed_title:
                 #print "{0}: {1} {2}\n\n".format(single_id, feed_title, feed_url)
                 logger.debug("URL and title present")
-                sendit(feed_url, feed_title)
+                sendit(feed_url, feed_title, type)
                 response[single_id] = "Success"
             else:
                 response[single_id] = "Bad data"

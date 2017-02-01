@@ -91,3 +91,98 @@
 2017-01-30 16:06:37,256 - ERROR - Success! Tweet sent: Air stagnation advisory in effect for the Willamette Valley until Tuesday http://bit.ly/2kjDmF0
 2017-01-30 16:06:37,256 - DEBUG - EXIT tweet: True
 2017-01-30 16:06:37,256 - DEBUG - END
+2017-01-31 12:11:10,682 - DEBUG - ENTER onpublish
+2017-01-31 12:11:11,124 - DEBUG - rss success
+2017-01-31 12:11:11,128 - DEBUG - EXIT rss: Feed length 6
+2017-01-31 12:11:11,128 - DEBUG - got feed
+2017-01-31 12:11:11,128 - DEBUG - END
+2017-01-31 12:58:26,613 - DEBUG - ENTER onpublish
+2017-01-31 12:58:27,028 - DEBUG - rss success
+2017-01-31 12:58:27,032 - DEBUG - EXIT rss: Feed length 6
+2017-01-31 12:58:27,032 - DEBUG - got feed
+2017-01-31 12:58:27,032 - DEBUG - in feed.entries
+2017-01-31 12:58:27,032 - DEBUG - 35234439: Bend homeowners assess damage from record snowfall
+2017-01-31 12:58:27,032 - DEBUG - URL and title present
+2017-01-31 12:58:27,033 - DEBUG - ENTER tweet
+2017-01-31 12:58:27,033 - DEBUG - EXIT secrets: 4
+2017-01-31 12:58:27,033 - DEBUG - ENTER bitly
+2017-01-31 12:58:27,033 - DEBUG - EXIT secrets: 40
+2017-01-31 12:58:27,418 - DEBUG - ShortURL: http://bit.ly/2knZoX2
+2017-01-31 12:58:27,418 - DEBUG - EXIT bitly: http://bit.ly/2knZoX2
+2017-01-31 12:58:27,418 - ERROR - Success! Tweet sent: Bend homeowners assess damage from record snowfall http://bit.ly/2knZoX2
+2017-01-31 12:58:27,418 - DEBUG - EXIT tweet: True
+2017-01-31 12:58:27,418 - DEBUG - 35234427: Portland landlords vow to sue if City Council approves proposed tenant-protection ordinance
+2017-01-31 12:58:27,418 - DEBUG - URL and title present
+2017-01-31 12:58:27,418 - DEBUG - ENTER tweet
+2017-01-31 12:58:27,418 - DEBUG - EXIT secrets: 4
+2017-01-31 12:58:27,419 - DEBUG - ENTER bitly
+2017-01-31 12:58:27,419 - DEBUG - EXIT secrets: 40
+2017-01-31 12:58:27,805 - DEBUG - ShortURL: http://bit.ly/2kRAYCd
+2017-01-31 12:58:27,805 - DEBUG - EXIT bitly: http://bit.ly/2kRAYCd
+2017-01-31 12:58:27,805 - ERROR - Success! Tweet sent: Portland landlords vow to sue if City Council approves proposed tenant-protection ordinance http://bit.ly/2kRAYCd
+2017-01-31 12:58:27,805 - DEBUG - EXIT tweet: True
+2017-01-31 12:58:27,806 - DEBUG - END
+2017-01-31 15:16:47,116 - DEBUG - ENTER onpublish
+2017-01-31 15:16:47,825 - DEBUG - rss success
+2017-01-31 15:16:47,833 - DEBUG - EXIT rss: Feed length 6
+2017-01-31 15:16:47,833 - DEBUG - got feed
+2017-01-31 15:16:47,833 - DEBUG - in feed.entries
+2017-01-31 15:16:47,834 - DEBUG - 35234745: Lane County in for another bout of freezing rain, weather service forecasts
+2017-01-31 15:16:47,834 - DEBUG - URL and title present
+2017-01-31 15:16:47,834 - DEBUG - ENTER tweet
+2017-01-31 15:17:41,067 - DEBUG - ENTER onpublish
+2017-01-31 15:17:41,442 - DEBUG - rss success
+2017-01-31 15:17:41,449 - DEBUG - EXIT rss: Feed length 6
+2017-01-31 15:17:41,449 - DEBUG - got feed
+2017-01-31 15:17:41,449 - DEBUG - in feed.entries
+2017-01-31 15:17:41,449 - DEBUG - 35234745: Lane County in for another bout of freezing rain, weather service forecasts
+2017-01-31 15:17:41,450 - DEBUG - URL and title present
+2017-01-31 15:17:41,450 - DEBUG - ENTER tweet
+2017-01-31 15:17:41,451 - DEBUG - EXIT secrets: 4
+2017-01-31 15:17:41,451 - DEBUG - ENTER bitly
+2017-01-31 15:17:41,451 - DEBUG - EXIT secrets: 40
+2017-01-31 15:17:41,880 - DEBUG - ShortURL: http://bit.ly/2korIIT
+2017-01-31 15:17:41,881 - DEBUG - EXIT bitly: http://bit.ly/2korIIT
+2017-01-31 15:17:41,881 - ERROR - Success! Tweet sent: Lane County in for another bout of freezing rain, weather service forecasts http://bit.ly/2korIIT
+2017-01-31 15:17:41,881 - DEBUG - EXIT tweet: True
+2017-01-31 15:17:41,881 - DEBUG - 35234612: Lane County Commissioners move forward on public safety levy, raising age for tobacco
+2017-01-31 15:17:41,881 - DEBUG - URL and title present
+2017-01-31 15:17:41,881 - DEBUG - ENTER tweet
+2017-01-31 15:17:41,881 - DEBUG - EXIT secrets: 4
+2017-01-31 15:17:41,882 - DEBUG - ENTER bitly
+2017-01-31 15:17:41,882 - DEBUG - EXIT secrets: 40
+2017-01-31 15:17:42,256 - DEBUG - ShortURL: http://bit.ly/2kREn3Y
+2017-01-31 15:17:42,256 - DEBUG - EXIT bitly: http://bit.ly/2kREn3Y
+2017-01-31 15:17:42,256 - ERROR - Success! Tweet sent: Lane County Commissioners move forward on public safety levy, raising age for tobacco http://bit.ly/2kREn3Y
+2017-01-31 15:17:42,256 - DEBUG - EXIT tweet: True
+2017-01-31 15:17:42,257 - DEBUG - 35234474: Copper thieves cut phone service in Lakeside
+2017-01-31 15:17:42,257 - DEBUG - URL and title present
+2017-01-31 15:17:42,257 - DEBUG - ENTER tweet
+2017-01-31 15:17:42,257 - DEBUG - EXIT secrets: 4
+2017-01-31 15:17:42,257 - DEBUG - ENTER bitly
+2017-01-31 15:17:42,258 - DEBUG - EXIT secrets: 40
+2017-01-31 15:17:42,637 - DEBUG - ShortURL: http://bit.ly/2kRz18N
+2017-01-31 15:17:42,637 - DEBUG - EXIT bitly: http://bit.ly/2kRz18N
+2017-01-31 15:17:42,637 - ERROR - Success! Tweet sent: Copper thieves cut phone service in Lakeside http://bit.ly/2kRz18N
+2017-01-31 15:17:42,637 - DEBUG - EXIT tweet: True
+2017-01-31 15:17:42,637 - DEBUG - 35234461: White City man pleads not guilty in shooting case
+2017-01-31 15:17:42,637 - DEBUG - URL and title present
+2017-01-31 15:17:42,637 - DEBUG - ENTER tweet
+2017-01-31 15:17:42,637 - DEBUG - EXIT secrets: 4
+2017-01-31 15:17:42,638 - DEBUG - ENTER bitly
+2017-01-31 15:17:42,638 - DEBUG - EXIT secrets: 40
+2017-01-31 15:17:43,016 - DEBUG - ShortURL: http://bit.ly/2ko2tXr
+2017-01-31 15:17:43,016 - DEBUG - EXIT bitly: http://bit.ly/2ko2tXr
+2017-01-31 15:17:43,016 - ERROR - Success! Tweet sent: White City man pleads not guilty in shooting case http://bit.ly/2ko2tXr
+2017-01-31 15:17:43,016 - DEBUG - EXIT tweet: True
+2017-01-31 15:17:43,017 - DEBUG - 35234449: Klamath Falls man accused of severely beating girlfriend faces attempted murder charge
+2017-01-31 15:17:43,017 - DEBUG - URL and title present
+2017-01-31 15:17:43,017 - DEBUG - ENTER tweet
+2017-01-31 15:17:43,017 - DEBUG - EXIT secrets: 4
+2017-01-31 15:17:43,017 - DEBUG - ENTER bitly
+2017-01-31 15:17:43,017 - DEBUG - EXIT secrets: 40
+2017-01-31 15:17:43,402 - DEBUG - ShortURL: http://bit.ly/2kocLGL
+2017-01-31 15:17:43,402 - DEBUG - EXIT bitly: http://bit.ly/2kocLGL
+2017-01-31 15:17:43,403 - ERROR - Success! Tweet sent: Klamath Falls man accused of severely beating girlfriend faces attempted murder charge http://bit.ly/2kocLGL
+2017-01-31 15:17:43,403 - DEBUG - EXIT tweet: True
+2017-01-31 15:17:43,403 - DEBUG - END

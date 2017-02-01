@@ -1,0 +1,302 @@
+2017-01-31 15:25:07,430 - DEBUG - ENTER onpublish
+2017-01-31 15:25:08,016 - DEBUG - rss success
+2017-01-31 15:25:08,023 - DEBUG - EXIT rss: Feed length 6
+2017-01-31 15:25:08,023 - DEBUG - got feed
+2017-01-31 15:25:08,023 - DEBUG - in feed.entries
+2017-01-31 15:25:08,024 - DEBUG - ID file does not exist, making one
+2017-01-31 15:25:08,024 - DEBUG - 35194272: Looking back to the beginning of Obama’s presidency
+2017-01-31 15:25:08,024 - DEBUG - URL and title present
+2017-01-31 15:25:08,024 - DEBUG - ENTER tweet
+2017-01-31 15:25:08,024 - DEBUG - EXIT secrets: 4
+2017-01-31 15:25:08,025 - DEBUG - ENTER bitly
+2017-01-31 15:25:08,025 - DEBUG - EXIT secrets: 40
+2017-01-31 15:25:08,413 - DEBUG - ShortURL: http://bit.ly/2jd2nhr
+2017-01-31 15:25:08,413 - DEBUG - EXIT bitly: http://bit.ly/2jd2nhr
+2017-01-31 15:25:08,413 - ERROR - Success! Tweet sent: Looking back to the beginning of Obama’s presidency http://bit.ly/2jd2nhr
+2017-01-31 15:25:08,413 - DEBUG - EXIT tweet: True
+2017-01-31 15:25:08,413 - DEBUG - 34959916: Test
+2017-01-31 15:25:08,413 - DEBUG - URL and title present
+2017-01-31 15:25:08,413 - DEBUG - ENTER tweet
+2017-01-31 15:25:08,413 - DEBUG - EXIT secrets: 4
+2017-01-31 15:25:08,414 - DEBUG - ENTER bitly
+2017-01-31 15:25:08,414 - DEBUG - EXIT secrets: 40
+2017-01-31 15:25:08,815 - DEBUG - ShortURL: http://bit.ly/2koofdx
+2017-01-31 15:25:08,815 - DEBUG - EXIT bitly: http://bit.ly/2koofdx
+2017-01-31 15:25:08,815 - ERROR - Success! Tweet sent: Test http://bit.ly/2koofdx
+2017-01-31 15:25:08,815 - DEBUG - EXIT tweet: True
+2017-01-31 15:25:08,815 - DEBUG - 35184224: Brightcove caption test
+2017-01-31 15:25:08,816 - DEBUG - URL and title present
+2017-01-31 15:25:08,816 - DEBUG - ENTER tweet
+2017-01-31 15:25:08,816 - DEBUG - EXIT secrets: 4
+2017-01-31 15:25:08,816 - DEBUG - ENTER bitly
+2017-01-31 15:25:08,817 - DEBUG - EXIT secrets: 40
+2017-01-31 15:25:09,206 - DEBUG - ShortURL: http://bit.ly/2kodc4a
+2017-01-31 15:25:09,206 - DEBUG - EXIT bitly: http://bit.ly/2kodc4a
+2017-01-31 15:25:09,206 - ERROR - Success! Tweet sent: Brightcove caption test http://bit.ly/2kodc4a
+2017-01-31 15:25:09,206 - DEBUG - EXIT tweet: True
+2017-01-31 15:25:09,206 - DEBUG - 35074284: Byline test
+2017-01-31 15:25:09,206 - DEBUG - URL and title present
+2017-01-31 15:25:09,206 - DEBUG - ENTER tweet
+2017-01-31 15:25:09,207 - DEBUG - EXIT secrets: 4
+2017-01-31 15:25:09,207 - DEBUG - ENTER bitly
+2017-01-31 15:25:09,207 - DEBUG - EXIT secrets: 40
+2017-01-31 15:25:09,616 - DEBUG - ShortURL: http://bit.ly/2kS2fUR
+2017-01-31 15:25:09,616 - DEBUG - EXIT bitly: http://bit.ly/2kS2fUR
+2017-01-31 15:25:09,616 - ERROR - Success! Tweet sent: Byline test http://bit.ly/2kS2fUR
+2017-01-31 15:25:09,616 - DEBUG - EXIT tweet: True
+2017-01-31 15:25:09,616 - DEBUG - 35067887: Don’t miss these weekend stories from The Register-Guard
+2017-01-31 15:25:09,616 - DEBUG - URL and title present
+2017-01-31 15:25:09,616 - DEBUG - ENTER tweet
+2017-01-31 15:25:09,617 - DEBUG - EXIT secrets: 4
+2017-01-31 15:25:09,617 - DEBUG - ENTER bitly
+2017-01-31 15:25:09,617 - DEBUG - EXIT secrets: 40
+2017-01-31 15:25:10,013 - DEBUG - ShortURL: http://bit.ly/2kRYBKQ
+2017-01-31 15:25:10,013 - DEBUG - EXIT bitly: http://bit.ly/2kRYBKQ
+2017-01-31 15:25:10,014 - ERROR - Success! Tweet sent: Don’t miss these weekend stories from The Register-Guard http://bit.ly/2kRYBKQ
+2017-01-31 15:25:10,014 - DEBUG - EXIT tweet: True
+2017-01-31 15:25:10,014 - DEBUG - 35020978: SoundCite test
+2017-01-31 15:25:10,014 - DEBUG - URL and title present
+2017-01-31 15:25:10,014 - DEBUG - ENTER tweet
+2017-01-31 15:25:10,014 - DEBUG - EXIT secrets: 4
+2017-01-31 15:25:10,015 - DEBUG - ENTER bitly
+2017-01-31 15:25:10,015 - DEBUG - EXIT secrets: 40
+2017-01-31 15:25:10,404 - DEBUG - ShortURL: http://bit.ly/2kRSLJg
+2017-01-31 15:25:10,404 - DEBUG - EXIT bitly: http://bit.ly/2kRSLJg
+2017-01-31 15:25:10,405 - ERROR - Success! Tweet sent: SoundCite test http://bit.ly/2kRSLJg
+2017-01-31 15:25:10,405 - DEBUG - EXIT tweet: True
+2017-01-31 15:25:10,405 - DEBUG - END
+2017-01-31 15:31:40,039 - DEBUG - ENTER onpublish
+2017-01-31 15:31:40,534 - DEBUG - rss success
+2017-01-31 15:31:40,543 - DEBUG - EXIT rss: Feed length 6
+2017-01-31 15:31:40,543 - DEBUG - got feed
+2017-01-31 15:31:40,543 - DEBUG - in feed.entries
+2017-01-31 15:31:40,544 - DEBUG - END
+2017-01-31 15:33:34,554 - DEBUG - ENTER onpublish
+2017-01-31 15:33:35,200 - DEBUG - rss success
+2017-01-31 15:33:35,207 - DEBUG - EXIT rss: Feed length 6
+2017-01-31 15:33:35,207 - DEBUG - got feed
+2017-01-31 15:33:35,207 - DEBUG - in feed.entries
+2017-01-31 15:33:35,208 - DEBUG - 35234961: This is a really long headline that is  way, way too long for Twitter’s API because of the extreme detail in the headline’s text
+2017-01-31 15:33:35,208 - DEBUG - URL and title present
+2017-01-31 15:33:35,208 - DEBUG - ENTER tweet
+2017-01-31 15:41:23,371 - DEBUG - ENTER onpublish
+2017-01-31 15:41:23,916 - DEBUG - rss success
+2017-01-31 15:41:23,923 - DEBUG - EXIT rss: Feed length 6
+2017-01-31 15:41:23,924 - DEBUG - got feed
+2017-01-31 15:41:23,924 - DEBUG - in feed.entries
+2017-01-31 15:41:23,924 - DEBUG - 35234961: This is a really long headline that is  way, way too long for Twitter’s API because of the extreme detail in the headline’s text
+2017-01-31 15:41:23,924 - DEBUG - URL and title present
+2017-01-31 15:41:23,924 - DEBUG - ENTER tweet
+2017-01-31 15:41:23,924 - DEBUG - trim headline
+2017-01-31 15:41:23,924 - DEBUG - EXIT secrets: 4
+2017-01-31 15:41:23,925 - DEBUG - ENTER bitly
+2017-01-31 15:41:23,925 - DEBUG - EXIT secrets: 40
+2017-01-31 15:41:24,324 - DEBUG - ShortURL: http://bit.ly/2kom6i0
+2017-01-31 15:41:24,324 - DEBUG - EXIT bitly: http://bit.ly/2kom6i0
+2017-01-31 15:41:24,324 - ERROR - Success! Tweet sent: This is a really long headline that is way, way too long for Twitter’s API because of the extreme… http://bit.ly/2kom6i0
+2017-01-31 15:41:24,324 - DEBUG - EXIT tweet: True
+2017-01-31 15:41:24,324 - DEBUG - END
+2017-01-31 15:54:02,149 - DEBUG - ENTER onpublish
+2017-01-31 15:54:02,721 - DEBUG - rss success
+2017-01-31 15:54:02,731 - DEBUG - EXIT rss: Feed length 6
+2017-01-31 15:54:02,731 - DEBUG - got feed
+2017-01-31 15:54:02,731 - DEBUG - in feed.entries
+2017-01-31 15:54:02,732 - DEBUG - ID file does not exist, making one
+2017-01-31 15:54:02,732 - DEBUG - 35194272: Looking back to the beginning of Obama’s presidency
+2017-01-31 15:54:02,732 - DEBUG - URL and title present
+2017-01-31 15:54:02,732 - DEBUG - ENTER tweet
+2017-01-31 15:54:02,733 - DEBUG - EXIT secrets: 4
+2017-01-31 15:54:02,734 - DEBUG - ENTER bitly
+2017-01-31 15:54:02,734 - DEBUG - EXIT secrets: 40
+2017-01-31 15:54:03,126 - DEBUG - ShortURL: http://bit.ly/2jd2nhr
+2017-01-31 15:54:03,127 - DEBUG - EXIT bitly: http://bit.ly/2jd2nhr
+2017-01-31 15:54:03,127 - ERROR - Success! Tweet sent: Looking back to the beginning of Obama’s presidency http://bit.ly/2jd2nhr
+2017-01-31 15:54:03,127 - DEBUG - EXIT tweet: True
+2017-01-31 15:54:03,127 - DEBUG - 35234961: This is a really long headline that is  way, way too long for Twitter’s API because of the extreme detail in the headline’s text
+2017-01-31 15:54:03,127 - DEBUG - URL and title present
+2017-01-31 15:54:03,127 - DEBUG - ENTER tweet
+2017-01-31 15:54:03,127 - DEBUG - trim headline
+2017-01-31 15:54:03,127 - DEBUG - EXIT secrets: 4
+2017-01-31 15:54:03,128 - DEBUG - ENTER bitly
+2017-01-31 15:54:03,128 - DEBUG - EXIT secrets: 40
+2017-01-31 15:54:03,513 - DEBUG - ShortURL: http://bit.ly/2kom6i0
+2017-01-31 15:54:03,513 - DEBUG - EXIT bitly: http://bit.ly/2kom6i0
+2017-01-31 15:54:03,513 - ERROR - Success! Tweet sent: This is a really long headline that is way, way too long for Twitter’s API because of the extreme… http://bit.ly/2kom6i0
+2017-01-31 15:54:03,513 - DEBUG - EXIT tweet: True
+2017-01-31 15:54:03,513 - DEBUG - 34959916: Test
+2017-01-31 15:54:03,514 - DEBUG - URL and title present
+2017-01-31 15:54:03,514 - DEBUG - ENTER tweet
+2017-01-31 15:54:03,514 - DEBUG - EXIT secrets: 4
+2017-01-31 15:54:03,514 - DEBUG - ENTER bitly
+2017-01-31 15:54:03,514 - DEBUG - EXIT secrets: 40
+2017-01-31 15:54:03,886 - DEBUG - ShortURL: http://bit.ly/2koofdx
+2017-01-31 15:54:03,886 - DEBUG - EXIT bitly: http://bit.ly/2koofdx
+2017-01-31 15:54:03,886 - ERROR - Success! Tweet sent: Test http://bit.ly/2koofdx
+2017-01-31 15:54:03,887 - DEBUG - EXIT tweet: True
+2017-01-31 15:54:03,887 - DEBUG - 35184224: Brightcove caption test
+2017-01-31 15:54:03,887 - DEBUG - URL and title present
+2017-01-31 15:54:03,887 - DEBUG - ENTER tweet
+2017-01-31 15:54:03,887 - DEBUG - EXIT secrets: 4
+2017-01-31 15:54:03,887 - DEBUG - ENTER bitly
+2017-01-31 15:54:03,888 - DEBUG - EXIT secrets: 40
+2017-01-31 15:54:04,285 - DEBUG - ShortURL: http://bit.ly/2kodc4a
+2017-01-31 15:54:04,286 - DEBUG - EXIT bitly: http://bit.ly/2kodc4a
+2017-01-31 15:54:04,286 - ERROR - Success! Tweet sent: Brightcove caption test http://bit.ly/2kodc4a
+2017-01-31 15:54:04,286 - DEBUG - EXIT tweet: True
+2017-01-31 15:54:04,286 - DEBUG - 35074284: Byline test
+2017-01-31 15:54:04,286 - DEBUG - URL and title present
+2017-01-31 15:54:04,286 - DEBUG - ENTER tweet
+2017-01-31 15:54:04,286 - DEBUG - EXIT secrets: 4
+2017-01-31 15:54:04,287 - DEBUG - ENTER bitly
+2017-01-31 15:54:04,287 - DEBUG - EXIT secrets: 40
+2017-01-31 15:54:04,688 - DEBUG - ShortURL: http://bit.ly/2kS2fUR
+2017-01-31 15:54:04,688 - DEBUG - EXIT bitly: http://bit.ly/2kS2fUR
+2017-01-31 15:54:04,688 - ERROR - Success! Tweet sent: Byline test http://bit.ly/2kS2fUR
+2017-01-31 15:54:04,688 - DEBUG - EXIT tweet: True
+2017-01-31 15:54:04,688 - DEBUG - 35067887: Don’t miss these weekend stories from The Register-Guard
+2017-01-31 15:54:04,688 - DEBUG - URL and title present
+2017-01-31 15:54:04,688 - DEBUG - ENTER tweet
+2017-01-31 15:54:04,689 - DEBUG - EXIT secrets: 4
+2017-01-31 15:54:04,689 - DEBUG - ENTER bitly
+2017-01-31 15:54:04,689 - DEBUG - EXIT secrets: 40
+2017-01-31 15:54:05,069 - DEBUG - ShortURL: http://bit.ly/2kRYBKQ
+2017-01-31 15:54:05,069 - DEBUG - EXIT bitly: http://bit.ly/2kRYBKQ
+2017-01-31 15:54:05,069 - ERROR - Success! Tweet sent: Don’t miss these weekend stories from The Register-Guard http://bit.ly/2kRYBKQ
+2017-01-31 15:54:05,069 - DEBUG - EXIT tweet: True
+2017-01-31 15:54:05,069 - DEBUG - END
+2017-01-31 15:54:41,799 - DEBUG - ENTER onpublish
+2017-01-31 15:54:41,938 - DEBUG - rss success
+2017-01-31 15:54:41,946 - DEBUG - EXIT rss: Feed length 6
+2017-01-31 15:54:41,946 - DEBUG - got feed
+2017-01-31 15:54:41,946 - DEBUG - in feed.entries
+2017-01-31 15:54:41,947 - DEBUG - ID file does not exist, making one
+2017-01-31 15:54:41,947 - DEBUG - 35194272: Looking back to the beginning of Obama’s presidency
+2017-01-31 15:54:41,947 - DEBUG - URL and title present
+2017-01-31 15:54:41,947 - DEBUG - ENTER tweet
+2017-01-31 15:54:41,948 - DEBUG - EXIT secrets: 4
+2017-01-31 15:54:41,948 - DEBUG - ENTER bitly
+2017-01-31 15:54:41,948 - DEBUG - EXIT secrets: 40
+2017-01-31 15:54:42,337 - DEBUG - ShortURL: http://bit.ly/2jd2nhr
+2017-01-31 15:54:42,338 - DEBUG - EXIT bitly: http://bit.ly/2jd2nhr
+2017-01-31 15:54:42,338 - ERROR - Success! Tweet sent: Looking back to the beginning of Obama’s presidency http://bit.ly/2jd2nhr
+2017-01-31 15:54:42,338 - DEBUG - EXIT tweet: True
+2017-01-31 15:54:42,338 - DEBUG - 35234961: This is a really long headline that is  way, way too long for Twitter’s API because of the extreme detail in the headline’s text
+2017-01-31 15:54:42,338 - DEBUG - URL and title present
+2017-01-31 15:54:42,338 - DEBUG - ENTER tweet
+2017-01-31 15:54:42,338 - DEBUG - trim headline
+2017-01-31 15:54:42,338 - DEBUG - EXIT secrets: 4
+2017-01-31 15:54:42,339 - DEBUG - ENTER bitly
+2017-01-31 15:54:42,339 - DEBUG - EXIT secrets: 40
+2017-01-31 15:54:42,718 - DEBUG - ShortURL: http://bit.ly/2kom6i0
+2017-01-31 15:54:42,718 - DEBUG - EXIT bitly: http://bit.ly/2kom6i0
+2017-01-31 15:54:42,719 - ERROR - Success! Tweet sent: This is a really long headline that is way, way too long for Twitter’s API because of the extreme… http://bit.ly/2kom6i0
+2017-01-31 15:54:42,719 - DEBUG - EXIT tweet: True
+2017-01-31 15:54:42,719 - DEBUG - 34959916: Test
+2017-01-31 15:54:42,719 - DEBUG - URL and title present
+2017-01-31 15:54:42,719 - DEBUG - ENTER tweet
+2017-01-31 15:54:42,719 - DEBUG - EXIT secrets: 4
+2017-01-31 15:54:42,720 - DEBUG - ENTER bitly
+2017-01-31 15:54:42,720 - DEBUG - EXIT secrets: 40
+2017-01-31 15:54:43,093 - DEBUG - ShortURL: http://bit.ly/2koofdx
+2017-01-31 15:54:43,093 - DEBUG - EXIT bitly: http://bit.ly/2koofdx
+2017-01-31 15:54:43,093 - ERROR - Success! Tweet sent: Test http://bit.ly/2koofdx
+2017-01-31 15:54:43,093 - DEBUG - EXIT tweet: True
+2017-01-31 15:54:43,093 - DEBUG - 35184224: Brightcove caption test
+2017-01-31 15:54:43,093 - DEBUG - URL and title present
+2017-01-31 15:54:43,093 - DEBUG - ENTER tweet
+2017-01-31 15:54:43,093 - DEBUG - EXIT secrets: 4
+2017-01-31 15:54:43,094 - DEBUG - ENTER bitly
+2017-01-31 15:54:43,094 - DEBUG - EXIT secrets: 40
+2017-01-31 15:54:43,475 - DEBUG - ShortURL: http://bit.ly/2kodc4a
+2017-01-31 15:54:43,475 - DEBUG - EXIT bitly: http://bit.ly/2kodc4a
+2017-01-31 15:54:43,475 - ERROR - Success! Tweet sent: Brightcove caption test http://bit.ly/2kodc4a
+2017-01-31 15:54:43,475 - DEBUG - EXIT tweet: True
+2017-01-31 15:54:43,475 - DEBUG - 35074284: Byline test
+2017-01-31 15:54:43,475 - DEBUG - URL and title present
+2017-01-31 15:54:43,475 - DEBUG - ENTER tweet
+2017-01-31 15:54:43,475 - DEBUG - EXIT secrets: 4
+2017-01-31 15:54:43,476 - DEBUG - ENTER bitly
+2017-01-31 15:54:43,476 - DEBUG - EXIT secrets: 40
+2017-01-31 15:54:43,845 - DEBUG - ShortURL: http://bit.ly/2kS2fUR
+2017-01-31 15:54:43,845 - DEBUG - EXIT bitly: http://bit.ly/2kS2fUR
+2017-01-31 15:54:43,845 - ERROR - Success! Tweet sent: Byline test http://bit.ly/2kS2fUR
+2017-01-31 15:54:43,845 - DEBUG - EXIT tweet: True
+2017-01-31 15:54:43,845 - DEBUG - 35067887: Don’t miss these weekend stories from The Register-Guard
+2017-01-31 15:54:43,845 - DEBUG - URL and title present
+2017-01-31 15:54:43,845 - DEBUG - ENTER tweet
+2017-01-31 15:54:43,845 - DEBUG - EXIT secrets: 4
+2017-01-31 15:54:43,846 - DEBUG - ENTER bitly
+2017-01-31 15:54:43,846 - DEBUG - EXIT secrets: 40
+2017-01-31 15:54:44,238 - DEBUG - ShortURL: http://bit.ly/2kRYBKQ
+2017-01-31 15:54:44,238 - DEBUG - EXIT bitly: http://bit.ly/2kRYBKQ
+2017-01-31 15:54:44,238 - ERROR - Success! Tweet sent: Don’t miss these weekend stories from The Register-Guard http://bit.ly/2kRYBKQ
+2017-01-31 15:54:44,238 - DEBUG - EXIT tweet: True
+2017-01-31 15:54:44,238 - DEBUG - END
+2017-01-31 15:55:37,204 - DEBUG - ENTER onpublish
+2017-01-31 15:55:38,148 - DEBUG - rss success
+2017-01-31 15:55:38,155 - DEBUG - EXIT rss: Feed length 6
+2017-01-31 15:55:38,155 - DEBUG - got feed
+2017-01-31 15:55:38,155 - DEBUG - in feed.entries
+2017-01-31 15:55:38,156 - DEBUG - 35234961: This is a really long headline that is  way, way too long for Twitter’s API because of the extreme detail in the headline’s text
+2017-01-31 15:55:38,156 - DEBUG - URL and title present
+2017-01-31 15:55:38,156 - DEBUG - ENTER tweet
+2017-01-31 15:55:38,156 - DEBUG - trim headline
+2017-01-31 15:55:38,157 - DEBUG - EXIT secrets: 4
+2017-01-31 15:55:38,157 - DEBUG - ENTER bitly
+2017-01-31 15:55:38,157 - DEBUG - EXIT secrets: 40
+2017-01-31 15:55:38,556 - DEBUG - ShortURL: http://bit.ly/2kom6i0
+2017-01-31 15:55:38,556 - DEBUG - EXIT bitly: http://bit.ly/2kom6i0
+2017-01-31 15:55:38,556 - ERROR - Success! Tweet sent: This is a really long headline that is way, way too long for Twitter’s API because of the extreme… #rgstage http://bit.ly/2kom6i0
+2017-01-31 15:55:38,556 - DEBUG - EXIT tweet: True
+2017-01-31 15:55:38,557 - DEBUG - END
+2017-01-31 15:57:40,107 - DEBUG - ENTER onpublish
+2017-01-31 15:57:40,225 - DEBUG - rss success
+2017-01-31 15:57:40,232 - DEBUG - EXIT rss: Feed length 6
+2017-01-31 15:57:40,232 - DEBUG - got feed
+2017-01-31 15:57:40,232 - DEBUG - in feed.entries
+2017-01-31 15:57:40,232 - DEBUG - 35235021: This is a really long headline that is way, way too long for Twitter’s API because of the length of it done
+2017-01-31 15:57:40,232 - DEBUG - URL and title present
+2017-01-31 15:57:40,232 - DEBUG - ENTER tweet
+2017-01-31 15:57:40,233 - DEBUG - trim headline
+2017-01-31 15:57:40,233 - DEBUG - EXIT secrets: 4
+2017-01-31 15:57:40,233 - DEBUG - ENTER bitly
+2017-01-31 15:57:40,233 - DEBUG - EXIT secrets: 40
+2017-01-31 15:57:40,658 - DEBUG - ShortURL: http://bit.ly/2kS6Ne5
+2017-01-31 15:57:40,658 - DEBUG - EXIT bitly: http://bit.ly/2kS6Ne5
+2017-01-31 15:57:40,659 - ERROR - Success! Tweet sent: This is a really long headline that is way, way too long for Twitter’s API because of the length of it… #rgstage http://bit.ly/2kS6Ne5
+2017-01-31 15:57:40,659 - DEBUG - EXIT tweet: True
+2017-01-31 15:57:40,660 - DEBUG - END
+2017-01-31 15:58:40,228 - DEBUG - ENTER onpublish
+2017-01-31 15:58:40,814 - DEBUG - rss success
+2017-01-31 15:58:40,822 - DEBUG - EXIT rss: Feed length 6
+2017-01-31 15:58:40,822 - DEBUG - got feed
+2017-01-31 15:58:40,822 - DEBUG - in feed.entries
+2017-01-31 15:58:40,822 - DEBUG - 35235021: This is a really long headline that is way, way too long for Twitter’s API because of the length of it rob
+2017-01-31 15:58:40,822 - DEBUG - URL and title present
+2017-01-31 15:58:40,822 - DEBUG - ENTER tweet
+2017-01-31 15:58:40,822 - DEBUG - trim headline
+2017-01-31 15:58:40,822 - DEBUG - EXIT secrets: 4
+2017-01-31 15:58:40,823 - DEBUG - ENTER bitly
+2017-01-31 15:58:40,823 - DEBUG - EXIT secrets: 40
+2017-01-31 15:58:41,253 - DEBUG - ShortURL: http://bit.ly/2kS6Ne5
+2017-01-31 15:58:41,253 - DEBUG - EXIT bitly: http://bit.ly/2kS6Ne5
+2017-01-31 15:58:41,254 - ERROR - Success! Tweet sent: This is a really long headline that is way, way too long for Twitter’s API because of the length of it… #rgstage http://bit.ly/2kS6Ne5
+2017-01-31 15:58:41,254 - DEBUG - EXIT tweet: True
+2017-01-31 15:58:41,254 - DEBUG - END
+2017-01-31 15:59:17,236 - DEBUG - ENTER onpublish
+2017-01-31 15:59:17,414 - DEBUG - rss success
+2017-01-31 15:59:17,421 - DEBUG - EXIT rss: Feed length 6
+2017-01-31 15:59:17,421 - DEBUG - got feed
+2017-01-31 15:59:17,421 - DEBUG - in feed.entries
+2017-01-31 15:59:17,421 - DEBUG - 35235021: This is a really long headline that is way, way too long for Twitter’s API because of the length of it it
+2017-01-31 15:59:17,421 - DEBUG - URL and title present
+2017-01-31 15:59:17,421 - DEBUG - ENTER tweet
+2017-01-31 15:59:17,421 - DEBUG - trim headline
+2017-01-31 15:59:17,422 - DEBUG - EXIT secrets: 4
+2017-01-31 15:59:17,422 - DEBUG - ENTER bitly
+2017-01-31 15:59:17,422 - DEBUG - EXIT secrets: 40
+2017-01-31 15:59:17,784 - DEBUG - ShortURL: http://bit.ly/2kS6Ne5
+2017-01-31 15:59:17,784 - DEBUG - EXIT bitly: http://bit.ly/2kS6Ne5
+2017-01-31 15:59:17,784 - ERROR - Success! Tweet sent: This is a really long headline that is way, way too long for Twitter’s API because of the length of it… #rgstage http://bit.ly/2kS6Ne5
+2017-01-31 15:59:17,784 - DEBUG - EXIT tweet: True
+2017-01-31 15:59:17,785 - DEBUG - END
