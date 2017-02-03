@@ -300,3 +300,199 @@
 2017-01-31 15:59:17,784 - ERROR - Success! Tweet sent: This is a really long headline that is way, way too long for Twitter’s API because of the length of it… #rgstage http://bit.ly/2kS6Ne5
 2017-01-31 15:59:17,784 - DEBUG - EXIT tweet: True
 2017-01-31 15:59:17,785 - DEBUG - END
+2017-02-02 15:22:01,230 - DEBUG - ENTER onpublish
+2017-02-02 15:22:02,130 - DEBUG - rss success
+2017-02-02 15:22:02,137 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 15:22:02,138 - DEBUG - got feed
+2017-02-02 15:22:02,138 - DEBUG - in feed.entries
+2017-02-02 15:22:02,138 - DEBUG - END
+2017-02-02 15:23:16,037 - DEBUG - ENTER onpublish
+2017-02-02 15:23:16,179 - DEBUG - rss success
+2017-02-02 15:23:16,186 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 15:23:16,186 - DEBUG - got feed
+2017-02-02 15:23:16,186 - DEBUG - in feed.entries
+2017-02-02 15:23:57,402 - DEBUG - ENTER onpublish
+2017-02-02 15:23:57,563 - DEBUG - rss success
+2017-02-02 15:23:57,570 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 15:23:57,570 - DEBUG - got feed
+2017-02-02 15:23:57,570 - DEBUG - in feed.entries
+2017-02-02 15:25:06,337 - DEBUG - ENTER onpublish
+2017-02-02 15:25:07,289 - DEBUG - rss success
+2017-02-02 15:25:07,295 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 15:25:07,295 - DEBUG - got feed
+2017-02-02 15:25:07,295 - DEBUG - in feed.entries
+2017-02-02 15:25:28,311 - DEBUG - ENTER onpublish
+2017-02-02 15:25:28,499 - DEBUG - rss success
+2017-02-02 15:25:28,506 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 15:25:28,506 - DEBUG - got feed
+2017-02-02 15:25:28,506 - DEBUG - in feed.entries
+2017-02-02 15:25:44,666 - DEBUG - ENTER onpublish
+2017-02-02 15:25:44,871 - DEBUG - rss success
+2017-02-02 15:25:44,877 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 15:25:44,877 - DEBUG - got feed
+2017-02-02 15:25:44,877 - DEBUG - in feed.entries
+2017-02-02 15:26:19,684 - DEBUG - ENTER onpublish
+2017-02-02 15:26:19,834 - DEBUG - rss success
+2017-02-02 15:26:19,840 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 15:26:19,841 - DEBUG - got feed
+2017-02-02 15:26:19,841 - DEBUG - in feed.entries
+2017-02-02 15:26:49,045 - DEBUG - ENTER onpublish
+2017-02-02 15:26:49,142 - DEBUG - rss success
+2017-02-02 15:26:49,148 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 15:26:49,148 - DEBUG - got feed
+2017-02-02 15:26:49,148 - DEBUG - in feed.entries
+2017-02-02 15:26:49,148 - DEBUG - 35235021: This is a really long headline that is way, way too long for Twitter’s API because of the length of it it
+2017-02-02 15:26:49,148 - DEBUG - URL and title present
+2017-02-02 15:26:49,148 - DEBUG - ENTER tweet
+2017-02-02 17:07:40,752 - DEBUG - ENTER onpublish
+2017-02-02 17:07:41,345 - DEBUG - rss success
+2017-02-02 17:07:41,351 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 17:07:41,351 - DEBUG - got feed
+2017-02-02 17:07:41,351 - DEBUG - in feed.entries
+2017-02-02 17:08:38,384 - DEBUG - ENTER onpublish
+2017-02-02 17:08:38,530 - DEBUG - rss success
+2017-02-02 17:08:38,536 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 17:08:38,536 - DEBUG - got feed
+2017-02-02 17:08:38,536 - DEBUG - in feed.entries
+2017-02-02 17:08:38,536 - DEBUG - 35235021: This is a really long headline that is way, way too long for Twitter’s API because of the length of it it
+2017-02-02 17:08:38,536 - DEBUG - URL and title present
+2017-02-02 17:08:38,536 - DEBUG - ENTER tweet
+2017-02-02 17:08:38,537 - DEBUG - EXIT secrets: 4
+2017-02-02 17:08:38,537 - DEBUG - ENTER bitly
+2017-02-02 17:08:38,537 - DEBUG - EXIT secrets: 40
+2017-02-02 17:08:38,976 - DEBUG - ShortURL: http://rgne.ws/2kS6Ne5
+2017-02-02 17:08:38,976 - DEBUG - EXIT bitly: http://rgne.ws/2kS6Ne5
+2017-02-02 17:09:59,674 - DEBUG - ENTER onpublish
+2017-02-02 17:10:00,232 - DEBUG - rss success
+2017-02-02 17:10:00,238 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 17:10:00,238 - DEBUG - got feed
+2017-02-02 17:10:00,238 - DEBUG - in feed.entries
+2017-02-02 17:10:00,238 - DEBUG - 35235021: This is a really long headline that is way, way too long for Twitter’s API because of the length of it it
+2017-02-02 17:10:00,238 - DEBUG - URL and title present
+2017-02-02 17:10:00,238 - DEBUG - ENTER tweet
+2017-02-02 17:10:13,152 - DEBUG - ENTER onpublish
+2017-02-02 17:10:13,307 - DEBUG - rss success
+2017-02-02 17:10:13,313 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 17:10:13,313 - DEBUG - got feed
+2017-02-02 17:10:13,314 - DEBUG - in feed.entries
+2017-02-02 17:10:13,314 - DEBUG - 35235021: This is a really long headline that is way, way too long for Twitter’s API because of the length of it it
+2017-02-02 17:10:13,314 - DEBUG - URL and title present
+2017-02-02 17:10:13,314 - DEBUG - ENTER tweet
+2017-02-02 17:10:13,314 - DEBUG - EXIT secrets: 4
+2017-02-02 17:10:13,314 - DEBUG - ENTER bitly
+2017-02-02 17:10:13,314 - DEBUG - EXIT secrets: 40
+2017-02-02 17:10:13,744 - DEBUG - ShortURL: http://rgne.ws/2kS6Ne5
+2017-02-02 17:10:13,745 - DEBUG - EXIT bitly: http://rgne.ws/2kS6Ne5
+2017-02-02 17:10:43,819 - DEBUG - ENTER onpublish
+2017-02-02 17:10:43,950 - DEBUG - rss success
+2017-02-02 17:10:43,956 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 17:10:43,956 - DEBUG - got feed
+2017-02-02 17:10:43,956 - DEBUG - in feed.entries
+2017-02-02 17:10:43,956 - DEBUG - 35235021: This is a really long headline that is way, way too long for Twitter’s API because of the length of it it
+2017-02-02 17:10:43,957 - DEBUG - URL and title present
+2017-02-02 17:10:43,957 - DEBUG - ENTER tweet
+2017-02-02 17:13:48,558 - DEBUG - ENTER onpublish
+2017-02-02 17:13:49,113 - DEBUG - rss success
+2017-02-02 17:13:49,119 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 17:13:49,119 - DEBUG - got feed
+2017-02-02 17:13:49,119 - DEBUG - in feed.entries
+2017-02-02 17:13:49,119 - DEBUG - 35235021: This is a really long headline that is way, way too long for Twitter’s API because of the length of it it
+2017-02-02 17:13:49,119 - DEBUG - URL and title present
+2017-02-02 17:13:49,119 - DEBUG - ENTER tweet
+2017-02-02 17:13:49,119 - DEBUG - EXIT secrets: 4
+2017-02-02 17:13:49,120 - DEBUG - ENTER bitly
+2017-02-02 17:13:49,120 - DEBUG - EXIT secrets: 40
+2017-02-02 17:13:49,517 - DEBUG - ShortURL: http://rgne.ws/2kS6Ne5
+2017-02-02 17:13:49,517 - DEBUG - EXIT bitly: http://rgne.ws/2kS6Ne5
+2017-02-02 17:14:09,672 - DEBUG - ENTER onpublish
+2017-02-02 17:14:09,832 - DEBUG - rss success
+2017-02-02 17:14:09,838 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 17:14:09,839 - DEBUG - got feed
+2017-02-02 17:14:09,839 - DEBUG - in feed.entries
+2017-02-02 17:14:09,839 - DEBUG - 35235021: This is a really long headline that is way, way too long for Twitter’s API because of the length of it it
+2017-02-02 17:14:09,839 - DEBUG - URL and title present
+2017-02-02 17:14:09,839 - DEBUG - ENTER tweet
+2017-02-02 17:14:09,839 - DEBUG - EXIT secrets: 4
+2017-02-02 17:14:09,839 - DEBUG - ENTER bitly
+2017-02-02 17:14:09,839 - DEBUG - EXIT secrets: 40
+2017-02-02 17:14:10,247 - DEBUG - ShortURL: http://rgne.ws/2kS6Ne5
+2017-02-02 17:14:10,247 - DEBUG - EXIT bitly: http://rgne.ws/2kS6Ne5
+2017-02-02 17:14:34,926 - DEBUG - ENTER onpublish
+2017-02-02 17:14:34,996 - DEBUG - rss success
+2017-02-02 17:14:35,002 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 17:14:35,002 - DEBUG - got feed
+2017-02-02 17:14:35,002 - DEBUG - in feed.entries
+2017-02-02 17:14:35,002 - DEBUG - 35235021: This is a really long headline that is way, way too long for Twitter’s API because of the length of it it
+2017-02-02 17:14:35,002 - DEBUG - URL and title present
+2017-02-02 17:14:35,002 - DEBUG - ENTER tweet
+2017-02-02 17:15:19,889 - DEBUG - ENTER onpublish
+2017-02-02 17:15:20,013 - DEBUG - rss success
+2017-02-02 17:15:20,019 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 17:15:20,019 - DEBUG - got feed
+2017-02-02 17:15:20,019 - DEBUG - in feed.entries
+2017-02-02 17:15:20,019 - DEBUG - 35235021: This is a really long headline that is way, way too long for Twitter’s API because of the length of it it
+2017-02-02 17:15:20,019 - DEBUG - URL and title present
+2017-02-02 17:15:20,019 - DEBUG - ENTER tweet
+2017-02-02 17:15:20,019 - DEBUG - EXIT secrets: 4
+2017-02-02 17:15:20,020 - DEBUG - ENTER bitly
+2017-02-02 17:15:20,020 - DEBUG - EXIT secrets: 40
+2017-02-02 17:15:20,384 - DEBUG - ShortURL: http://rgne.ws/2kS6Ne5
+2017-02-02 17:15:20,384 - DEBUG - EXIT bitly: http://rgne.ws/2kS6Ne5
+2017-02-02 17:15:20,384 - ERROR - Success! Tweet sent: This is a really long headline that is way, way too long for Twitter’s API because of the length of it it #rgstage http://rgne.ws/2kS6Ne5
+2017-02-02 17:15:20,384 - DEBUG - EXIT tweet: True
+2017-02-02 17:15:20,384 - DEBUG - END
+2017-02-02 17:15:39,583 - DEBUG - ENTER onpublish
+2017-02-02 17:15:39,628 - DEBUG - rss success
+2017-02-02 17:15:39,635 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 17:15:39,635 - DEBUG - got feed
+2017-02-02 17:15:39,635 - DEBUG - in feed.entries
+2017-02-02 17:15:39,635 - DEBUG - 35235021: This is a really long headline that is way, way too long for Twitter’s API because of the length of it it
+2017-02-02 17:15:39,635 - DEBUG - URL and title present
+2017-02-02 17:15:39,635 - DEBUG - ENTER tweet
+2017-02-02 17:15:39,635 - DEBUG - EXIT secrets: 4
+2017-02-02 17:15:39,635 - DEBUG - ENTER bitly
+2017-02-02 17:15:39,636 - DEBUG - EXIT secrets: 40
+2017-02-02 17:15:40,007 - DEBUG - ShortURL: http://rgne.ws/2kS6Ne5
+2017-02-02 17:15:40,007 - DEBUG - EXIT bitly: http://rgne.ws/2kS6Ne5
+2017-02-02 17:15:40,007 - ERROR - Success! Tweet sent: This is a really long headline that is way, way too long for Twitter’s API because of the length of it it #rgstage http://rgne.ws/2kS6Ne5
+2017-02-02 17:15:40,007 - DEBUG - EXIT tweet: True
+2017-02-02 17:15:40,007 - DEBUG - END
+2017-02-02 17:15:55,291 - DEBUG - ENTER onpublish
+2017-02-02 17:15:55,384 - DEBUG - rss success
+2017-02-02 17:15:55,390 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 17:15:55,390 - DEBUG - got feed
+2017-02-02 17:15:55,391 - DEBUG - in feed.entries
+2017-02-02 17:15:55,391 - DEBUG - END
+2017-02-02 17:16:04,152 - DEBUG - ENTER onpublish
+2017-02-02 17:16:04,275 - DEBUG - rss success
+2017-02-02 17:16:04,281 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 17:16:04,281 - DEBUG - got feed
+2017-02-02 17:16:04,281 - DEBUG - in feed.entries
+2017-02-02 17:16:04,281 - DEBUG - 35235021: This is a really long headline that is way, way too long for Twitter’s API because of the length of it it
+2017-02-02 17:16:04,281 - DEBUG - URL and title present
+2017-02-02 17:16:04,281 - DEBUG - ENTER tweet
+2017-02-02 17:16:04,282 - DEBUG - EXIT secrets: 4
+2017-02-02 17:16:04,282 - DEBUG - ENTER bitly
+2017-02-02 17:16:04,282 - DEBUG - EXIT secrets: 40
+2017-02-02 17:16:04,666 - DEBUG - ShortURL: http://rgne.ws/2kS6Ne5
+2017-02-02 17:16:04,666 - DEBUG - EXIT bitly: http://rgne.ws/2kS6Ne5
+2017-02-02 17:16:04,666 - ERROR - Success! Tweet sent: This is a really long headline that is way, way too long for Twitter’s API because of the length of it it #rgstage http://rgne.ws/2kS6Ne5
+2017-02-02 17:16:04,666 - DEBUG - EXIT tweet: True
+2017-02-02 17:16:04,667 - DEBUG - END
+2017-02-02 17:16:42,875 - DEBUG - ENTER onpublish
+2017-02-02 17:16:43,390 - DEBUG - rss success
+2017-02-02 17:16:43,397 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 17:16:43,397 - DEBUG - got feed
+2017-02-02 17:16:43,397 - DEBUG - in feed.entries
+2017-02-02 17:16:43,397 - DEBUG - 35234961: This is a really long headline that is  way, way too long for Twitter’s API because of the extreme detail in the headline’s text
+2017-02-02 17:16:43,397 - DEBUG - URL and title present
+2017-02-02 17:16:43,397 - DEBUG - ENTER tweet
+2017-02-02 17:16:43,397 - DEBUG - trim headline
+2017-02-02 17:16:43,398 - DEBUG - EXIT secrets: 4
+2017-02-02 17:16:43,398 - DEBUG - ENTER bitly
+2017-02-02 17:16:43,398 - DEBUG - EXIT secrets: 40
+2017-02-02 17:16:43,773 - DEBUG - ShortURL: http://rgne.ws/2kom6i0
+2017-02-02 17:16:43,773 - DEBUG - EXIT bitly: http://rgne.ws/2kom6i0
+2017-02-02 17:16:43,773 - ERROR - Success! Tweet sent: This is a really long headline that is way, way too long for Twitter’s API because of the extreme detail… #rgstage http://rgne.ws/2kom6i0
+2017-02-02 17:16:43,773 - DEBUG - EXIT tweet: True
+2017-02-02 17:16:43,774 - DEBUG - END

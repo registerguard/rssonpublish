@@ -186,3 +186,97 @@
 2017-01-31 15:17:43,403 - ERROR - Success! Tweet sent: Klamath Falls man accused of severely beating girlfriend faces attempted murder charge http://bit.ly/2kocLGL
 2017-01-31 15:17:43,403 - DEBUG - EXIT tweet: True
 2017-01-31 15:17:43,403 - DEBUG - END
+2017-02-02 17:20:00,989 - DEBUG - ENTER onpublish
+2017-02-02 17:20:01,438 - DEBUG - rss success
+2017-02-02 17:20:01,445 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 17:20:01,446 - DEBUG - got feed
+2017-02-02 17:20:01,446 - DEBUG - in feed.entries
+2017-02-02 17:20:01,446 - DEBUG - 35242807: Oregon hazelnut crop yield 40 percent more in 2016
+2017-02-02 17:20:01,446 - DEBUG - URL and title present
+2017-02-02 17:20:01,446 - DEBUG - ENTER tweet
+2017-02-02 17:20:01,446 - DEBUG - EXIT secrets: 4
+2017-02-02 17:20:01,447 - DEBUG - ENTER bitly
+2017-02-02 17:20:01,447 - DEBUG - EXIT secrets: 40
+2017-02-02 17:20:01,827 - DEBUG - ShortURL: http://rgne.ws/2l27vVY
+2017-02-02 17:20:01,827 - DEBUG - EXIT bitly: http://rgne.ws/2l27vVY
+2017-02-02 17:20:01,827 - ERROR - Success! Tweet sent: Oregon hazelnut crop yield 40 percent more in 2016 #rgnews http://rgne.ws/2l27vVY
+2017-02-02 17:20:01,827 - DEBUG - EXIT tweet: True
+2017-02-02 17:20:01,828 - DEBUG - 35242793: Oregon refuge standoff defendant Duane Ehmer wants new judge for non-jury trial
+2017-02-02 17:20:01,828 - DEBUG - URL and title present
+2017-02-02 17:20:01,828 - DEBUG - ENTER tweet
+2017-02-02 17:20:01,828 - DEBUG - EXIT secrets: 4
+2017-02-02 17:20:01,828 - DEBUG - ENTER bitly
+2017-02-02 17:20:01,828 - DEBUG - EXIT secrets: 40
+2017-02-02 17:20:02,213 - DEBUG - ShortURL: http://rgne.ws/2l2daeT
+2017-02-02 17:20:02,213 - DEBUG - EXIT bitly: http://rgne.ws/2l2daeT
+2017-02-02 17:20:02,213 - ERROR - Success! Tweet sent: Oregon refuge standoff defendant Duane Ehmer wants new judge for non-jury trial #rgnews http://rgne.ws/2l2daeT
+2017-02-02 17:20:02,213 - DEBUG - EXIT tweet: True
+2017-02-02 17:20:02,214 - DEBUG - 35241808: Eugene’s Summit Bank reports an increase in profits, comparing 2016 to 2015
+2017-02-02 17:20:02,214 - DEBUG - URL and title present
+2017-02-02 17:20:02,214 - DEBUG - ENTER tweet
+2017-02-02 17:20:02,214 - DEBUG - EXIT secrets: 4
+2017-02-02 17:20:02,214 - DEBUG - ENTER bitly
+2017-02-02 17:20:02,214 - DEBUG - EXIT secrets: 40
+2017-02-02 17:20:02,600 - DEBUG - ShortURL: http://rgne.ws/2kuPBys
+2017-02-02 17:20:02,601 - DEBUG - EXIT bitly: http://rgne.ws/2kuPBys
+2017-02-02 17:20:02,601 - ERROR - Success! Tweet sent: Eugene’s Summit Bank reports an increase in profits, comparing 2016 to 2015 #rgnews http://rgne.ws/2kuPBys
+2017-02-02 17:20:02,601 - DEBUG - EXIT tweet: True
+2017-02-02 17:20:02,601 - DEBUG - 35241931: Eugene School Board adds four school days in June
+2017-02-02 17:20:02,601 - DEBUG - URL and title present
+2017-02-02 17:20:02,601 - DEBUG - ENTER tweet
+2017-02-02 17:20:02,601 - DEBUG - EXIT secrets: 4
+2017-02-02 17:20:02,601 - DEBUG - ENTER bitly
+2017-02-02 17:20:02,602 - DEBUG - EXIT secrets: 40
+2017-02-02 17:20:03,016 - DEBUG - ShortURL: http://rgne.ws/2l2uYqe
+2017-02-02 17:20:03,016 - DEBUG - EXIT bitly: http://rgne.ws/2l2uYqe
+2017-02-02 17:20:03,017 - ERROR - Success! Tweet sent: Eugene School Board adds four school days in June #rgnews http://rgne.ws/2l2uYqe
+2017-02-02 17:20:03,017 - DEBUG - EXIT tweet: True
+2017-02-02 17:20:03,017 - DEBUG - 35237729: Willamalane Park and Recreation District looking for new board member
+2017-02-02 17:20:03,017 - DEBUG - URL and title present
+2017-02-02 17:20:03,017 - DEBUG - ENTER tweet
+2017-02-02 17:20:03,017 - DEBUG - EXIT secrets: 4
+2017-02-02 17:20:03,017 - DEBUG - ENTER bitly
+2017-02-02 17:20:03,018 - DEBUG - EXIT secrets: 40
+2017-02-02 17:20:03,412 - DEBUG - ShortURL: http://rgne.ws/2krgjbi
+2017-02-02 17:20:03,412 - DEBUG - EXIT bitly: http://rgne.ws/2krgjbi
+2017-02-02 17:20:03,412 - ERROR - Success! Tweet sent: Willamalane Park and Recreation District looking for new board member #rgnews http://rgne.ws/2krgjbi
+2017-02-02 17:20:03,412 - DEBUG - EXIT tweet: True
+2017-02-02 17:20:03,412 - DEBUG - 35241865: Eugene Civic Alliance sues insurance company for $325K over Civic Stadium fire
+2017-02-02 17:20:03,413 - DEBUG - URL and title present
+2017-02-02 17:20:03,413 - DEBUG - ENTER tweet
+2017-02-02 17:20:03,413 - DEBUG - EXIT secrets: 4
+2017-02-02 17:20:03,413 - DEBUG - ENTER bitly
+2017-02-02 17:20:03,413 - DEBUG - EXIT secrets: 40
+2017-02-02 17:20:03,785 - DEBUG - ShortURL: http://rgne.ws/2l2Gnq8
+2017-02-02 17:20:03,785 - DEBUG - EXIT bitly: http://rgne.ws/2l2Gnq8
+2017-02-02 17:20:03,785 - ERROR - Success! Tweet sent: Eugene Civic Alliance sues insurance company for $325K over Civic Stadium fire #rgnews http://rgne.ws/2l2Gnq8
+2017-02-02 17:20:03,785 - DEBUG - EXIT tweet: True
+2017-02-02 17:20:03,785 - DEBUG - 35241596: Low chance for freezing rain Thursday in the Willamette Valley
+2017-02-02 17:20:03,785 - DEBUG - URL and title present
+2017-02-02 17:20:03,785 - DEBUG - ENTER tweet
+2017-02-02 17:20:03,786 - DEBUG - EXIT secrets: 4
+2017-02-02 17:20:03,786 - DEBUG - ENTER bitly
+2017-02-02 17:20:03,786 - DEBUG - EXIT secrets: 40
+2017-02-02 17:20:04,171 - DEBUG - ShortURL: http://rgne.ws/2kueuum
+2017-02-02 17:20:04,171 - DEBUG - EXIT bitly: http://rgne.ws/2kueuum
+2017-02-02 17:20:04,171 - ERROR - Success! Tweet sent: Low chance for freezing rain Thursday in the Willamette Valley #rgnews http://rgne.ws/2kueuum
+2017-02-02 17:20:04,171 - DEBUG - EXIT tweet: True
+2017-02-02 17:20:04,172 - DEBUG - END
+2017-02-02 17:22:00,441 - DEBUG - ENTER onpublish
+2017-02-02 17:22:00,850 - DEBUG - rss success
+2017-02-02 17:22:00,858 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 17:22:00,858 - DEBUG - got feed
+2017-02-02 17:22:00,858 - DEBUG - in feed.entries
+2017-02-02 17:22:00,858 - DEBUG - END
+2017-02-02 17:24:01,120 - DEBUG - ENTER main
+2017-02-02 17:24:01,891 - DEBUG - rss success
+2017-02-02 17:24:01,899 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 17:24:01,899 - DEBUG - got feed
+2017-02-02 17:24:01,899 - DEBUG - in feed.entries
+2017-02-02 17:24:01,900 - DEBUG - END
+2017-02-02 17:26:01,161 - DEBUG - ENTER main
+2017-02-02 17:26:01,389 - DEBUG - rss success
+2017-02-02 17:26:01,396 - DEBUG - EXIT rss: Feed length 6
+2017-02-02 17:26:01,396 - DEBUG - got feed
+2017-02-02 17:26:01,397 - DEBUG - in feed.entries
+2017-02-02 17:26:01,397 - DEBUG - END

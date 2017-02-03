@@ -19,8 +19,8 @@ payload = data['payload']
 
 logger = logging.getLogger('logger')
 # set level
-logger.setLevel(logging.DEBUG)
-#logger.setLevel(logging.ERROR)
+#logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.ERROR)
 
 # set vars
 log_file_dir = "{}/logs/".format(program_path)
@@ -38,7 +38,7 @@ logger.addHandler(handler)
 # START MAIN SCRIPT
 # ----------------------------------------------------------------------------------------
 
-logger.debug("ENTER onpublish")
+logger.debug("ENTER main")
 # Set vars
 response = {}
 id_file = "{0}/{1}.id".format(program_path, type)
@@ -69,8 +69,15 @@ if feed.entries:
         if single_id not in file_data:
             # set these vars
             feed_url = feed.entries[i].link
-            feed_title = feed.entries[i].title.encode('utf-8')
-            logger.debug("{0}: {1}".format(single_id, feed_title))
+            feed_title = feed.entries[i].title
+            #print feed_title
+            #print len(feed_title)
+            #print type(feed_title)
+            #print len(feed_title)
+            #feed_title = feed_title.encode('utf-8') # Decode for proper length testing
+            #print type(feed_title)
+            #print len(feed_title)
+            logger.debug("{0}: {1}".format(single_id, feed_title.encode('utf-8')))
             
             if feed_url and feed_title:
                 #print "{0}: {1} {2}\n\n".format(single_id, feed_title, feed_url)

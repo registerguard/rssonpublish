@@ -88,23 +88,31 @@ def trim(hed):
         # Join list back into string
         hed = " ".join(hedl)
         # Repeat popping words until string less than 105 characters
+        
     # Add ellipsis character
-    ell = "…"
+    # blah
+    #hed = hed.encode('utf-8')
+    hed = hed + u"\u2026"
     #ell = ell.encode('utf-8')
-    hed = hed + ell
+    #hed = "{0}{1}".format(hed,ell)
+    #return hed
+    #ell = ell.encode('utf-8')
+    #hed = hed + ell
+    #encodedhed = hed.encode('utf-8')
+    #return encodedhed
     return hed
 
-def hashtag(type):
+def hashtag(scripttype):
     hasht = ""
-    if type == "twitter-news":
+    if scripttype == "twitter-news":
         hasht = " #rgnews"
-    elif type == "twitter-sports":
+    elif scripttype == "twitter-sports":
         hasht = " #rgsports"
-    elif type == "twitter-staging":
+    elif scripttype == "twitter-staging":
         hasht = " #rgstage"
     return hasht
 
-def sendit(feed_url, feed_title, type):
+def sendit(feed_url, feed_title, scripttype):
     logger.debug("ENTER tweet")
     success = False
     
@@ -112,7 +120,9 @@ def sendit(feed_url, feed_title, type):
         feed_title = trim(feed_title)
         logger.debug("trim headline")
     
-    hasht = hashtag(type)
+    feed_title = feed_title.encode('utf-8')
+    
+    hasht = hashtag(scripttype)
     
     # Get access token from secrets.json
     secrets = getSecret('twitter-rob')
