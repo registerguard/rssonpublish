@@ -8,5 +8,5 @@ scratch.py
 id.txt
 *.egg-info/*
 
-program/id_files/*.id
-program/logs/*.log
+*/logs/*.log
+*/*.id

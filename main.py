@@ -1,5 +1,5 @@
 import os, logging, logging.handlers, sys, importlib
-from scripts import getrss, sendit
+from scripts import getrss, sendit, testBadHed
 
 # ----------------------------------------------------------------------------------------
 # SET CONFIG
@@ -70,22 +70,15 @@ if feed.entries:
             # set these vars
             feed_url = feed.entries[i].link
             feed_title = feed.entries[i].title
-            #print feed_title
-            #print len(feed_title)
-            #print type(feed_title)
-            #print len(feed_title)
-            #feed_title = feed_title.encode('utf-8') # Decode for proper length testing
-            #print type(feed_title)
-            #print len(feed_title)
             logger.debug("{0}: {1}".format(single_id, feed_title.encode('utf-8')))
-            
+            # Test for bad headline
+            feed_title = testBadHed(feed_title)
+            # If we have a URL and a good headline then continue
             if feed_url and feed_title:
                 #print "{0}: {1} {2}\n\n".format(single_id, feed_title, feed_url)
                 logger.debug("URL and title present")
                 sendit(feed_url, feed_title, type)
-                response[single_id] = "Success"
             else:
-                response[single_id] = "Bad data"
                 logger.error("{}: No url or title".format(single_id))
             
         
@@ -95,5 +88,3 @@ if feed.entries:
         text_file.write('{}'.format(id_list))
     
 logger.debug("END")
-#return response
-

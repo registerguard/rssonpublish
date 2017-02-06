@@ -1,4 +1,5 @@
-import os, logging, logging.handlers, requests, feedparser, tweepy, json, bitly_api
+import os, re, logging, logging.handlers, requests, feedparser, tweepy, json, bitly_api
+from sys import exit
 
 # logger
 logger = logging.getLogger('logger')
@@ -75,8 +76,32 @@ def getURL(full_url):
     
 
 # ----------------------------------------------------------------------------------------
+# TEST FOR BAD HEADLINE
+# ----------------------------------------------------------------------------------------
+
+def testBadHed(hed):
+    # Set up regex, see docs/regex.py for more
+    regex = '([a-zA-Z0-9]\.[a-zA-Z0-9]+\.[x0-9])|(^Hed\s|\shed\s)|(\shery$|\sherey$)'
+    
+    if re.search(regex,hed):
+        # Log it
+        logger.error("Bad headline: {0}".format(hed))
+        # This should send email from wave
+        print "Bad headline: {0}".format(hed)
+        # Return hed as nothing so that if statement in main fails
+        hed = ""
+    
+    return hed
+    
+
+# ----------------------------------------------------------------------------------------
 # TWEET
 # ----------------------------------------------------------------------------------------
+
+def removePunctuation(hed):
+    return hed
+    
+
 
 def trim(hed):
     # While head is longer than 105 characters
@@ -90,16 +115,7 @@ def trim(hed):
         # Repeat popping words until string less than 105 characters
         
     # Add ellipsis character
-    # blah
-    #hed = hed.encode('utf-8')
     hed = hed + u"\u2026"
-    #ell = ell.encode('utf-8')
-    #hed = "{0}{1}".format(hed,ell)
-    #return hed
-    #ell = ell.encode('utf-8')
-    #hed = hed + ell
-    #encodedhed = hed.encode('utf-8')
-    #return encodedhed
     return hed
 
 def hashtag(scripttype):

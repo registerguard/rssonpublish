@@ -1,81 +1,15 @@
-2017-01-30 16:27:09,465 - DEBUG - ENTER onpublish
-2017-01-30 16:27:10,025 - DEBUG - rss success
-2017-01-30 16:27:10,030 - DEBUG - EXIT rss: Feed length 6
-2017-01-30 16:27:10,030 - DEBUG - got feed
-2017-01-30 16:27:10,030 - DEBUG - in feed.entries
-2017-01-30 16:27:10,030 - DEBUG - ID file does not exist, making one
-2017-01-30 16:27:10,031 - DEBUG - 35231042: Former Duck Arsalan Kazemi, first Iranian in college basketball, fears travel restrictions will prevent others from following his path
-2017-01-30 16:27:10,031 - DEBUG - URL and title present
-2017-01-30 16:27:10,031 - DEBUG - ENTER tweet
-2017-01-30 16:27:10,031 - DEBUG - EXIT secrets: 4
-2017-01-30 16:27:10,031 - DEBUG - ENTER bitly
-2017-01-30 16:27:10,032 - DEBUG - EXIT secrets: 40
-2017-01-30 16:27:10,416 - DEBUG - ShortURL: http://bit.ly/2kMVYd4
-2017-01-30 16:27:10,417 - DEBUG - EXIT bitly: http://bit.ly/2kMVYd4
-2017-01-30 16:27:10,417 - ERROR - Success! Tweet sent: Former Duck Arsalan Kazemi, first Iranian in college basketball, fears travel restrictions will prevent others from following his path http://bit.ly/2kMVYd4
-2017-01-30 16:27:10,417 - DEBUG - EXIT tweet: True
-2017-01-30 16:27:10,417 - DEBUG - 35230983: Oregon basketball falls to No. 13, not bothered by ranked being behind UCLA
-2017-01-30 16:27:10,417 - DEBUG - URL and title present
-2017-01-30 16:27:10,417 - DEBUG - ENTER tweet
-2017-01-30 16:27:10,417 - DEBUG - EXIT secrets: 4
-2017-01-30 16:27:10,418 - DEBUG - ENTER bitly
-2017-01-30 16:27:10,418 - DEBUG - EXIT secrets: 40
-2017-01-30 16:27:10,811 - DEBUG - ShortURL: http://bit.ly/2kk7akR
-2017-01-30 16:27:10,811 - DEBUG - EXIT bitly: http://bit.ly/2kk7akR
-2017-01-30 16:27:10,811 - ERROR - Success! Tweet sent: Oregon basketball falls to No. 13, not bothered by ranked being behind UCLA http://bit.ly/2kk7akR
-2017-01-30 16:27:10,811 - DEBUG - EXIT tweet: True
-2017-01-30 16:27:10,812 - DEBUG - END
-2017-02-02 17:20:00,989 - DEBUG - ENTER onpublish
-2017-02-02 17:20:01,310 - DEBUG - rss success
-2017-02-02 17:20:01,321 - DEBUG - EXIT rss: Feed length 6
-2017-02-02 17:20:01,321 - DEBUG - got feed
-2017-02-02 17:20:01,321 - DEBUG - in feed.entries
-2017-02-02 17:20:01,328 - DEBUG - 35242877: Oregon Ducks football coach Willie Taggart tries to bring the swagger back on recruiting trail
-2017-02-02 17:20:01,328 - DEBUG - URL and title present
-2017-02-02 17:20:01,328 - DEBUG - ENTER tweet
-2017-02-02 17:20:01,328 - DEBUG - EXIT secrets: 4
-2017-02-02 17:20:01,329 - DEBUG - ENTER bitly
-2017-02-02 17:20:01,329 - DEBUG - EXIT secrets: 40
-2017-02-02 17:20:01,715 - DEBUG - ShortURL: http://rgne.ws/2l2usIU
-2017-02-02 17:20:01,715 - DEBUG - EXIT bitly: http://rgne.ws/2l2usIU
-2017-02-02 17:20:01,715 - ERROR - Success! Tweet sent: Oregon Ducks football coach Willie Taggart tries to bring the swagger back on recruiting trail #rgsports http://rgne.ws/2l2usIU
-2017-02-02 17:20:01,715 - DEBUG - EXIT tweet: True
-2017-02-02 17:20:01,715 - DEBUG - 35242045: Oregon State picked as Pac-12 baseball favorite; Oregon pegged eighth
-2017-02-02 17:20:01,715 - DEBUG - URL and title present
-2017-02-02 17:20:01,715 - DEBUG - ENTER tweet
-2017-02-02 17:20:01,715 - DEBUG - EXIT secrets: 4
-2017-02-02 17:20:01,716 - DEBUG - ENTER bitly
-2017-02-02 17:20:01,716 - DEBUG - EXIT secrets: 40
-2017-02-02 17:20:02,122 - DEBUG - ShortURL: http://rgne.ws/2kvmLyk
-2017-02-02 17:20:02,122 - DEBUG - EXIT bitly: http://rgne.ws/2kvmLyk
-2017-02-02 17:20:02,122 - ERROR - Success! Tweet sent: Oregon State picked as Pac-12 baseball favorite; Oregon pegged eighth #rgsports http://rgne.ws/2kvmLyk
-2017-02-02 17:20:02,122 - DEBUG - EXIT tweet: True
-2017-02-02 17:20:02,122 - DEBUG - 35241993: Oregon basketball GameDay Extra: Links and notes as Ducks look to avoid overlooking Arizona State
-2017-02-02 17:20:02,123 - DEBUG - URL and title present
-2017-02-02 17:20:02,123 - DEBUG - ENTER tweet
-2017-02-02 17:20:02,123 - DEBUG - EXIT secrets: 4
-2017-02-02 17:20:02,123 - DEBUG - ENTER bitly
-2017-02-02 17:20:02,123 - DEBUG - EXIT secrets: 40
-2017-02-02 17:20:02,508 - DEBUG - ShortURL: http://rgne.ws/2kuJLNO
-2017-02-02 17:20:02,508 - DEBUG - EXIT bitly: http://rgne.ws/2kuJLNO
-2017-02-02 17:20:02,509 - ERROR - Success! Tweet sent: Oregon basketball GameDay Extra: Links and notes as Ducks look to avoid overlooking Arizona State #rgsports http://rgne.ws/2kuJLNO
-2017-02-02 17:20:02,509 - DEBUG - EXIT tweet: True
-2017-02-02 17:20:02,509 - DEBUG - END
-2017-02-02 17:22:00,440 - DEBUG - ENTER onpublish
-2017-02-02 17:22:00,602 - DEBUG - rss success
-2017-02-02 17:22:00,607 - DEBUG - EXIT rss: Feed length 6
-2017-02-02 17:22:00,607 - DEBUG - got feed
-2017-02-02 17:22:00,607 - DEBUG - in feed.entries
-2017-02-02 17:22:00,607 - DEBUG - END
-2017-02-02 17:24:01,120 - DEBUG - ENTER main
-2017-02-02 17:24:01,730 - DEBUG - rss success
-2017-02-02 17:24:01,734 - DEBUG - EXIT rss: Feed length 6
-2017-02-02 17:24:01,735 - DEBUG - got feed
-2017-02-02 17:24:01,735 - DEBUG - in feed.entries
-2017-02-02 17:24:01,735 - DEBUG - END
-2017-02-02 17:26:01,161 - DEBUG - ENTER main
-2017-02-02 17:26:01,325 - DEBUG - rss success
-2017-02-02 17:26:01,330 - DEBUG - EXIT rss: Feed length 6
-2017-02-02 17:26:01,330 - DEBUG - got feed
-2017-02-02 17:26:01,330 - DEBUG - in feed.entries
-2017-02-02 17:26:01,330 - DEBUG - END
+2017-02-02 17:32:02,097 - ERROR - Success! Tweet sent: Oregon Ducks’ Maite Cazorla getting healthy again #rgsports http://rgne.ws/2kvoFPs
+2017-02-02 19:26:02,229 - ERROR - Success! Tweet sent: Oregon Ducks’ Jalen Brown transfers to Northwestern #rgsports http://rgne.ws/2kvDZeT
+2017-02-02 20:56:01,370 - ERROR - Success! Tweet sent: Arizona State takes 28-25 halftime lead over Oregon men’s basketball #rgsports http://rgne.ws/2kvYPL3
+2017-02-03 12:20:01,305 - ERROR - Success! Tweet sent: Oregon Ducks basketball hosts No. 5 Arizona with first place on the line #rgsports http://rgne.ws/2l5ZwaE
+2017-02-03 19:50:01,346 - ERROR - Success! Tweet sent: Oregon Ducks women’s basketball breaks losing streak by beating Arizona Wildcats #rgsports http://rgne.ws/2l7nDWx
+2017-02-04 09:58:02,037 - ERROR - Success! Tweet sent: Oregon Ducks GameDay Extra: Links and more notes as No. 13 Ducks host No. 5 Arizona #rgsports http://rgne.ws/2kAlNR5
+2017-02-04 13:58:01,603 - ERROR - Success! Tweet sent: Oregon basketball blazes out to 38-18 halftime lead over No. 5 Arizona #rgsports http://rgne.ws/2l9Na1c
+2017-02-05 12:32:01,576 - ERROR - Success! Tweet sent: Dana Altman built Oregon basketball to catch up with Arizona #rgsports http://rgne.ws/2lcEQh1
+2017-02-05 14:16:01,737 - ERROR - Success! Tweet sent: Oregon women fall to No. 23 Arizona State, 68-63 #rgsports http://rgne.ws/2kDbGLv
+2017-02-05 21:22:01,629 - ERROR - Success! Tweet sent: New England Patriots rally to win Super Bowl LI in overtime #rgsports http://rgne.ws/2kDTLEr
+2017-02-06 08:46:02,166 - ERROR - Success! Tweet sent: Former Oregon defensive coordinator Brady Hoke reportedly hired at Tennessee #rgsports http://rgne.ws/2lg2SYL
+2017-02-06 09:24:01,634 - ERROR - Success! Tweet sent: Oregon Ducks basketball up 8 spots to No. 5 in AP poll #rgsports http://rgne.ws/2jV19qt
+2017-02-06 11:40:01,757 - ERROR - Success! Tweet sent: Oregon football assistant coach, in process of being fired, resigns #rgsports http://rgne.ws/2jVcgjf
+2017-02-06 11:56:02,537 - ERROR - Success! Tweet sent: Dillon Brooks named Pac-12 player of the week again for Oregon Ducks basketball #rgsports http://rgne.ws/2kFRMiO
+2017-02-06 12:36:02,125 - ERROR - Success! Tweet sent: Oregon’s new football strength coach to make $180,000 annually #rgsports http://rgne.ws/2kG4cHy
