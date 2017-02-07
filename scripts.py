@@ -80,17 +80,19 @@ def getURL(full_url):
 # ----------------------------------------------------------------------------------------
 
 def testBadHed(hed):
+    logger.debug("ENTER testBadHed()")
     # Set up regex, see docs/regex.py for more
     regex = '([a-zA-Z0-9]\.[a-zA-Z0-9]+\.[x0-9])|(^Hed\s|\shed\s)|(\shery$|\sherey$)'
     
     if re.search(regex,hed):
         # Log it
-        logger.error("Bad headline: {0}".format(hed))
+        logger.error("Bad headline: {0}".format(hed.encode('utf-8')))
         # This should send email from wave
-        print "Bad headline: {0}".format(hed)
+        print "Bad headline: {0}".format(hed.encode('utf-8'))
         # Return hed as nothing so that if statement in main fails
         hed = ""
     
+    logger.debug("EXIT testBadHed()")
     return hed
     
 
@@ -98,12 +100,30 @@ def testBadHed(hed):
 # TWEET
 # ----------------------------------------------------------------------------------------
 
-def removePunctuation(hed):
-    return hed
-    
+# Set vars for trimming punctuation off of headline
+# Example: "Oregon Promise" aid for community college students went heavily to middle- and upper-income families,... #rgnews http://rgne.ws/2l76Y5j
+enders = (u',', u'.', u'!', u'?')
+connectors = (u' &', u' -', u'\u2014') # emdash
+punctuation = enders + connectors
 
+def removePunctuation(hed):
+    logger.debug("ENTER removePunctuation()")
+    if hed.endswith(enders):
+        # Remove last character
+        hed = hed[:-1]
+    elif hed.endswith(connectors):
+        # Remove last two characters
+        hed = hed[:-2]
+    
+    # Check again, enter recursion if necessary
+    if hed.endswith(punctuation):
+        hed = removePunctuation(hed)
+    
+    logger.debug("EXIT removePunctuation()")
+    return hed
 
 def trim(hed):
+    logger.debug("ENTER trim()")
     # While head is longer than 105 characters
     while len(hed) > 105:
         # Split string into list of words
@@ -114,8 +134,13 @@ def trim(hed):
         hed = " ".join(hedl)
         # Repeat popping words until string less than 105 characters
         
+    # Check for punctuation
+    if hed.endswith(punctuation):
+        hed = removePunctuation(hed)
+    
     # Add ellipsis character
     hed = hed + u"\u2026"
+    logger.debug("EXIT trim()")
     return hed
 
 def hashtag(scripttype):

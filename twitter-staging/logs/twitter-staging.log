@@ -9,3 +9,114 @@
 2017-02-06 15:10:07,778 - ERROR - 35235021: No url or title
 2017-02-06 15:11:42,489 - ERROR - Bad headline: Hed goes herey
 2017-02-06 15:11:42,489 - ERROR - 35235021: No url or title
+2017-02-06 16:59:14,829 - DEBUG - ENTER main
+2017-02-06 16:59:15,012 - DEBUG - rss success
+2017-02-06 16:59:15,020 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 16:59:15,020 - DEBUG - got feed
+2017-02-06 16:59:15,020 - DEBUG - in feed.entries
+2017-02-06 16:59:15,021 - DEBUG - 35235021: Hed goes herey —
+2017-02-06 17:00:27,000 - DEBUG - ENTER main
+2017-02-06 17:00:27,175 - DEBUG - rss success
+2017-02-06 17:00:27,181 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:00:27,181 - DEBUG - got feed
+2017-02-06 17:00:27,181 - DEBUG - in feed.entries
+2017-02-06 17:00:27,182 - DEBUG - 35235021: Hed goes herey —
+2017-02-06 17:00:27,182 - ERROR - Bad headline: Hed goes herey —
+2017-02-06 17:00:27,182 - ERROR - 35235021: No url or title
+2017-02-06 17:00:27,183 - DEBUG - END
+2017-02-06 17:01:09,419 - DEBUG - ENTER main
+2017-02-06 17:01:10,354 - DEBUG - rss success
+2017-02-06 17:01:10,361 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:01:10,361 - DEBUG - got feed
+2017-02-06 17:01:10,362 - DEBUG - in feed.entries
+2017-02-06 17:01:10,362 - DEBUG - 35235021: This is a headline with emdash —
+2017-02-06 17:01:10,362 - DEBUG - URL and title present
+2017-02-06 17:01:10,363 - DEBUG - ENTER tweet
+2017-02-06 17:01:10,364 - DEBUG - EXIT secrets: 4
+2017-02-06 17:01:10,364 - DEBUG - ENTER bitly
+2017-02-06 17:01:10,364 - DEBUG - EXIT secrets: 40
+2017-02-06 17:01:10,780 - DEBUG - ShortURL: http://rgne.ws/2kGJTd2
+2017-02-06 17:01:10,780 - DEBUG - EXIT bitly: http://rgne.ws/2kGJTd2
+2017-02-06 17:01:10,781 - ERROR - Success! Tweet sent: This is a headline with emdash — #rgstage http://rgne.ws/2kGJTd2
+2017-02-06 17:01:10,781 - DEBUG - EXIT tweet: True
+2017-02-06 17:01:10,781 - DEBUG - END
+2017-02-06 17:06:30,456 - DEBUG - ENTER main
+2017-02-06 17:06:31,038 - DEBUG - rss success
+2017-02-06 17:06:31,044 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:06:31,045 - DEBUG - got feed
+2017-02-06 17:06:31,045 - DEBUG - in feed.entries
+2017-02-06 17:06:31,045 - DEBUG - 35235021: “Oregon Promise” aid for community college students went heavily to middle- and upper-income families, report says
+2017-02-06 17:06:31,045 - DEBUG - ENTER testBadHed()
+2017-02-06 17:06:31,046 - DEBUG - EXIT testBadHed()
+2017-02-06 17:06:31,046 - DEBUG - URL and title present
+2017-02-06 17:06:31,046 - DEBUG - ENTER tweet
+2017-02-06 17:06:31,046 - DEBUG - trim headline
+2017-02-06 17:06:31,047 - DEBUG - EXIT secrets: 4
+2017-02-06 17:06:31,048 - DEBUG - ENTER bitly
+2017-02-06 17:06:31,048 - DEBUG - EXIT secrets: 40
+2017-02-06 17:06:31,413 - DEBUG - ShortURL: http://rgne.ws/2kGJTd2
+2017-02-06 17:06:31,413 - DEBUG - EXIT bitly: http://rgne.ws/2kGJTd2
+2017-02-06 17:06:31,413 - ERROR - Success! Tweet sent: “Oregon Promise” aid for community college students went heavily to middle- and upper-income families… #rgstage http://rgne.ws/2kGJTd2
+2017-02-06 17:06:31,413 - DEBUG - EXIT tweet: True
+2017-02-06 17:06:31,414 - DEBUG - END
+2017-02-06 17:07:06,426 - DEBUG - ENTER main
+2017-02-06 17:07:06,596 - DEBUG - rss success
+2017-02-06 17:07:06,602 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:07:06,602 - DEBUG - got feed
+2017-02-06 17:07:06,603 - DEBUG - in feed.entries
+2017-02-06 17:07:06,603 - DEBUG - 35235021: “Oregon Promise” aid for community college students went heavily to middle- and upper-income families — report says
+2017-02-06 17:07:06,603 - DEBUG - ENTER testBadHed()
+2017-02-06 17:07:06,604 - DEBUG - EXIT testBadHed()
+2017-02-06 17:07:06,604 - DEBUG - URL and title present
+2017-02-06 17:07:06,604 - DEBUG - ENTER tweet
+2017-02-06 17:07:06,604 - DEBUG - trim headline
+2017-02-06 17:07:06,605 - DEBUG - EXIT secrets: 4
+2017-02-06 17:07:06,605 - DEBUG - ENTER bitly
+2017-02-06 17:07:06,605 - DEBUG - EXIT secrets: 40
+2017-02-06 17:07:06,989 - DEBUG - ShortURL: http://rgne.ws/2kGJTd2
+2017-02-06 17:07:06,989 - DEBUG - EXIT bitly: http://rgne.ws/2kGJTd2
+2017-02-06 17:07:06,989 - ERROR - Success! Tweet sent: “Oregon Promise” aid for community college students went heavily to middle- and upper-income families… #rgstage http://rgne.ws/2kGJTd2
+2017-02-06 17:07:06,989 - DEBUG - EXIT tweet: True
+2017-02-06 17:07:06,990 - DEBUG - END
+2017-02-06 17:07:25,607 - DEBUG - ENTER main
+2017-02-06 17:07:25,673 - DEBUG - rss success
+2017-02-06 17:07:25,680 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:07:25,680 - DEBUG - got feed
+2017-02-06 17:07:25,680 - DEBUG - in feed.entries
+2017-02-06 17:07:25,681 - DEBUG - 35235021: “Oregon Promise” aid for community college students went heavily to middle- and upper-income families — report says
+2017-02-06 17:07:25,681 - DEBUG - ENTER testBadHed()
+2017-02-06 17:07:25,681 - DEBUG - EXIT testBadHed()
+2017-02-06 17:07:25,681 - DEBUG - URL and title present
+2017-02-06 17:07:25,682 - DEBUG - ENTER tweet
+2017-02-06 17:07:25,682 - DEBUG - trim headline
+2017-02-06 17:07:25,682 - DEBUG - EXIT secrets: 4
+2017-02-06 17:07:25,683 - DEBUG - ENTER bitly
+2017-02-06 17:07:25,683 - DEBUG - EXIT secrets: 40
+2017-02-06 17:07:26,078 - DEBUG - ShortURL: http://rgne.ws/2kGJTd2
+2017-02-06 17:07:26,079 - DEBUG - EXIT bitly: http://rgne.ws/2kGJTd2
+2017-02-06 17:07:26,079 - ERROR - Success! Tweet sent: “Oregon Promise” aid for community college students went heavily to middle- and upper-income families… #rgstage http://rgne.ws/2kGJTd2
+2017-02-06 17:07:26,079 - DEBUG - EXIT tweet: True
+2017-02-06 17:07:26,080 - DEBUG - END
+2017-02-06 17:09:37,065 - DEBUG - ENTER main
+2017-02-06 17:09:37,225 - DEBUG - rss success
+2017-02-06 17:09:37,231 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:09:37,232 - DEBUG - got feed
+2017-02-06 17:09:37,232 - DEBUG - in feed.entries
+2017-02-06 17:09:37,232 - DEBUG - 35235021: “Oregon Promise” aid for community college students went heavily to middle- and upper-income families — says report
+2017-02-06 17:09:37,232 - DEBUG - ENTER testBadHed()
+2017-02-06 17:09:37,233 - DEBUG - EXIT testBadHed()
+2017-02-06 17:09:37,233 - DEBUG - URL and title present
+2017-02-06 17:09:37,233 - DEBUG - ENTER tweet
+2017-02-06 17:09:37,233 - DEBUG - ENTER trim()
+2017-02-06 17:09:37,233 - DEBUG - ENTER removePunctuation()
+2017-02-06 17:09:37,233 - DEBUG - EXIT removePunctuation()
+2017-02-06 17:09:37,233 - DEBUG - EXIT trim()
+2017-02-06 17:09:37,234 - DEBUG - trim headline
+2017-02-06 17:09:37,234 - DEBUG - EXIT secrets: 4
+2017-02-06 17:09:37,234 - DEBUG - ENTER bitly
+2017-02-06 17:09:37,235 - DEBUG - EXIT secrets: 40
+2017-02-06 17:09:37,620 - DEBUG - ShortURL: http://rgne.ws/2kGJTd2
+2017-02-06 17:09:37,620 - DEBUG - EXIT bitly: http://rgne.ws/2kGJTd2
+2017-02-06 17:09:37,621 - ERROR - Success! Tweet sent: “Oregon Promise” aid for community college students went heavily to middle- and upper-income families… #rgstage http://rgne.ws/2kGJTd2
+2017-02-06 17:09:37,621 - DEBUG - EXIT tweet: True
+2017-02-06 17:09:37,621 - DEBUG - END

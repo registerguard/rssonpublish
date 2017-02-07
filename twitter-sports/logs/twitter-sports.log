@@ -13,3 +13,40 @@
 2017-02-06 11:40:01,757 - ERROR - Success! Tweet sent: Oregon football assistant coach, in process of being fired, resigns #rgsports http://rgne.ws/2jVcgjf
 2017-02-06 11:56:02,537 - ERROR - Success! Tweet sent: Dillon Brooks named Pac-12 player of the week again for Oregon Ducks basketball #rgsports http://rgne.ws/2kFRMiO
 2017-02-06 12:36:02,125 - ERROR - Success! Tweet sent: Oregon’s new football strength coach to make $180,000 annually #rgsports http://rgne.ws/2kG4cHy
+2017-02-06 16:48:01,782 - ERROR - Success! Tweet sent: Team Eaton will headline TrackTown Tuesday #rgsports http://rgne.ws/2jW1kCb
+2017-02-06 17:00:01,063 - DEBUG - ENTER main
+2017-02-06 17:00:01,357 - DEBUG - rss success
+2017-02-06 17:00:01,365 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:00:01,365 - DEBUG - got feed
+2017-02-06 17:00:01,365 - DEBUG - in feed.entries
+2017-02-06 17:00:01,365 - DEBUG - END
+2017-02-06 17:02:00,970 - DEBUG - ENTER main
+2017-02-06 17:02:01,287 - DEBUG - rss success
+2017-02-06 17:02:01,294 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:02:01,294 - DEBUG - got feed
+2017-02-06 17:02:01,294 - DEBUG - in feed.entries
+2017-02-06 17:02:01,295 - DEBUG - END
+2017-02-06 17:04:00,843 - DEBUG - ENTER main
+2017-02-06 17:04:01,095 - DEBUG - rss success
+2017-02-06 17:04:01,103 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:04:01,103 - DEBUG - got feed
+2017-02-06 17:04:01,103 - DEBUG - in feed.entries
+2017-02-06 17:04:01,104 - DEBUG - END
+2017-02-06 17:08:00,696 - DEBUG - ENTER main
+2017-02-06 17:08:01,379 - DEBUG - rss success
+2017-02-06 17:08:01,385 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:08:01,385 - DEBUG - got feed
+2017-02-06 17:08:01,385 - DEBUG - in feed.entries
+2017-02-06 17:08:01,386 - DEBUG - END
+2017-02-06 17:10:00,745 - DEBUG - ENTER main
+2017-02-06 17:10:01,068 - DEBUG - rss success
+2017-02-06 17:10:01,074 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:10:01,074 - DEBUG - got feed
+2017-02-06 17:10:01,075 - DEBUG - in feed.entries
+2017-02-06 17:10:01,075 - DEBUG - END
+2017-02-06 17:12:00,548 - DEBUG - ENTER main
+2017-02-06 17:12:01,279 - DEBUG - rss success
+2017-02-06 17:12:01,286 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:12:01,287 - DEBUG - got feed
+2017-02-06 17:12:01,287 - DEBUG - in feed.entries
+2017-02-06 17:12:01,287 - DEBUG - END

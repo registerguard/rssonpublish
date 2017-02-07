@@ -25,3 +25,42 @@
 2017-02-06 11:44:01,617 - ERROR - Success! Tweet sent: DA says teenager killed in Coos County wreck may have been racing another car before crashing into OSP… #rgnews http://rgne.ws/2jVg6Zz
 2017-02-06 13:26:01,961 - ERROR - Success! Tweet sent: Oregon joins other states in lawsuit against Trump travel ban executive order #rgnews http://rgne.ws/2kGgrEa
 2017-02-06 14:26:02,220 - ERROR - Success! Tweet sent: City of Eugene employee arrested for a decade of sexual abuse, court records show #rgnews http://rgne.ws/2jVxVrA
+2017-02-06 16:48:01,855 - ERROR - Success! Tweet sent: Lane County Land Management division recommends approval of Gimpl Hill subdivision #rgnews http://rgne.ws/2kGEMJY
+2017-02-06 16:50:02,662 - ERROR - Success! Tweet sent: Guilty pleas resolve drug case involving now-former Eugene city employees #rgnews http://rgne.ws/2kGPZu3
+2017-02-06 17:00:01,063 - DEBUG - ENTER main
+2017-02-06 17:00:01,553 - DEBUG - rss success
+2017-02-06 17:00:01,561 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:00:01,561 - DEBUG - got feed
+2017-02-06 17:00:01,561 - DEBUG - in feed.entries
+2017-02-06 17:00:01,562 - DEBUG - END
+2017-02-06 17:02:00,970 - DEBUG - ENTER main
+2017-02-06 17:02:01,403 - DEBUG - rss success
+2017-02-06 17:02:01,411 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:02:01,411 - DEBUG - got feed
+2017-02-06 17:02:01,411 - DEBUG - in feed.entries
+2017-02-06 17:02:01,412 - DEBUG - END
+2017-02-06 17:04:00,843 - DEBUG - ENTER main
+2017-02-06 17:04:01,318 - DEBUG - rss success
+2017-02-06 17:04:01,327 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:04:01,327 - DEBUG - got feed
+2017-02-06 17:04:01,327 - DEBUG - in feed.entries
+2017-02-06 17:04:01,328 - DEBUG - END
+2017-02-06 17:08:00,696 - DEBUG - ENTER main
+2017-02-06 17:08:01,483 - DEBUG - rss success
+2017-02-06 17:08:01,491 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:08:01,492 - DEBUG - got feed
+2017-02-06 17:08:01,492 - DEBUG - in feed.entries
+2017-02-06 17:08:01,492 - DEBUG - END
+2017-02-06 17:10:00,745 - DEBUG - ENTER main
+2017-02-06 17:10:01,121 - DEBUG - rss success
+2017-02-06 17:10:01,130 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:10:01,131 - DEBUG - got feed
+2017-02-06 17:10:01,131 - DEBUG - in feed.entries
+2017-02-06 17:10:01,131 - DEBUG - END
+2017-02-06 17:12:00,548 - DEBUG - ENTER main
+2017-02-06 17:12:01,353 - DEBUG - rss success
+2017-02-06 17:12:01,361 - DEBUG - EXIT rss: Feed length 6
+2017-02-06 17:12:01,361 - DEBUG - got feed
+2017-02-06 17:12:01,362 - DEBUG - in feed.entries
+2017-02-06 17:12:01,362 - DEBUG - END
+2017-02-06 17:30:01,276 - ERROR - Success! Tweet sent: Man who broke into local businesses, UO buildings gets 10-year prison sentence #rgnews http://rgne.ws/2kGYwNr
