@@ -9,7 +9,7 @@ config = {
     'url': 'https://github.com/registerguard/rssonpublish/',
     'download_url': 'https://github.com/registerguard/rssonpublish/',
     'author_email': 'rob.denton@registerguard.com',
-    'version': '0.1',
+    'version': '0.2',
     'install_requires': ['bitly-api','feedparser','oauthlib','py','pytest','requests','requests-oauthlib','six','tweepy'],
     'packages': [],
     'scripts': [],

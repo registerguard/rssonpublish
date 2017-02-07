@@ -161,6 +161,7 @@ def sendit(feed_url, feed_title, scripttype):
         feed_title = trim(feed_title)
         logger.debug("trim headline")
     
+    # Encode headline if there are any fancy characters, such as ellipsis used in trim()
     feed_title = feed_title.encode('utf-8')
     
     hasht = hashtag(scripttype)

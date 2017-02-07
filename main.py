@@ -30,9 +30,9 @@ fileLogger.setFormatter(formatter)
 logger.addHandler(fileLogger)
 
 # Uncomment below to print to console
-handler = logging.StreamHandler()
-handler.setFormatter(formatter)
-logger.addHandler(handler)
+# handler = logging.StreamHandler()
+# handler.setFormatter(formatter)
+# logger.addHandler(handler)
 
 # ----------------------------------------------------------------------------------------
 # START MAIN SCRIPT

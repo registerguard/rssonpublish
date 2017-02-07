@@ -7,8 +7,9 @@ def test_tweet():
     
     feed_url = "http://registerguard.com/rg/sports/34996615-81/duck-pod-all-about-utah-with-kurt-kragthorpe-of-the-salt-lake-tribune.html.csp"
     feed_title = "Duck Pod: All about Utah with Kurt Kragthorpe of The Salt Lake Tribune"
+    type = "twitter-sports"
     
     # Try tweet
-    #success = sendit(feed_url, feed_title)
+    success = sendit(feed_url, feed_title, type)
     
     assert (success == True)
