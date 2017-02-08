@@ -146,11 +146,11 @@ def trim(hed):
 def hashtag(scripttype):
     hasht = ""
     if scripttype == "twitter-news":
-        hasht = " #rgnews"
+        hasht = "#rgnews"
     elif scripttype == "twitter-sports":
-        hasht = " #rgsports"
+        hasht = "#rgsports"
     elif scripttype == "twitter-staging":
-        hasht = " #rgstage"
+        hasht = "#rgstage"
     return hasht
 
 def sendit(feed_url, feed_title, scripttype):
@@ -181,7 +181,7 @@ def sendit(feed_url, feed_title, scripttype):
     shorturl = getURL(feed_url)
     
     # construct string to tweet
-    tweet_text = "{0}{1} {2}".format(feed_title, hasht, shorturl)
+    tweet_text = "{0} {1} {2}".format(feed_title, shorturl, hasht)
     
     # Comment out this line to not send the tweet
     try:

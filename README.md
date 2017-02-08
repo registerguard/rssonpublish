@@ -94,11 +94,13 @@ Now, we have 106 characters left for the headline. We need to test to see if the
 
 All,
 
-Please be aware that I have re-written the mechanism that sends automatic tweets for @registerguard and @rgsports. The main process will be the same: When an update is published to local news or sports a tweet with the headline and a link will be sent within 2 minutes. These tweets will now include the appropriate hashtag (#rgnews or #rgsports). If the length of the tweet becomes too long, the headlines will be trimmed and an ellipsis will be appended to the last visible word. Here's an example:
+Please be aware that I have re-written the mechanism that sends automatic tweets for @registerguard and @rgsports.
 
-A long headline like this...
-DA says teenager killed in Coos County wreck may have been racing another car before crashing into OSP trooper
-...is too long with hashtag and shortlink so it is trimmed and tweeted out as:
-DA says teenager killed in Coos County wreck may have been racing another car before crashing into OSP… #rgnews http://rgne.ws/2jVg6Zz
+The main process will be the same: When an update is published to local news or sports a tweet will be sent within 2 minutes. These tweets will now include the appropriate hashtag (#rgnews or #rgsports) along with the headline and shortlink. If the tweet becomes too long, the headlines will be trimmed and an ellipsis will be appended to the last word. Here's an example:
+
+A long headline like this... 
+	DA says teenager killed in Coos County wreck may have been racing another car before crashing into OSP trooper
+...is too long with hashtag and shortlink so it is trimmed and tweeted out as...
+	DA says teenager killed in Coos County wreck may have been racing another car before crashing into OSP… http://rgne.ws/2jVg6Zz #rgnews 
 
 As always, if you see anything odd please let me know immediately.
