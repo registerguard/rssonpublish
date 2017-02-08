@@ -21,6 +21,8 @@ The argument given after main.py corresponds to a directory which has a config f
 * Make virtualenv
 * `pip install -e .` to install requirements listed in setup.py
 * `pytest` and make sure tests are working correctly
+* You may or may not need to create a directory called "logs" in the module directory, if so you'll get an error like this:
+`IOError: [Errno 2] No such file or directory: '/Users/rdenton/github/registerguard/rssonpublish/twitter-sports/logs/twitter-sports.log'`
 * Create secrets.json file that has this sort of structure:
 
 ```json
