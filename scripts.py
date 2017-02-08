@@ -146,11 +146,11 @@ def trim(hed):
 def hashtag(scripttype):
     hasht = ""
     if scripttype == "twitter-news":
-        hasht = "#rgnews"
+        hasht = "#RGnews"
     elif scripttype == "twitter-sports":
-        hasht = "#rgsports"
+        hasht = "#RGsports"
     elif scripttype == "twitter-staging":
-        hasht = "#rgstage"
+        hasht = "#RGstage"
     return hasht
 
 def sendit(feed_url, feed_title, scripttype):
