@@ -167,7 +167,7 @@ def sendit(feed_url, feed_title, scripttype):
     hasht = hashtag(scripttype)
     
     # Get access token from secrets.json
-    secrets = getSecret('twitter-rob')
+    secrets = getSecret(scripttype)
     consumer_key = secrets['consumer_key']
     consumer_secret = secrets['consumer_secret']
     access_token = secrets['access_token']
