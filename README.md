@@ -20,6 +20,7 @@ The argument given after main.py corresponds to a directory which has a config f
 * Clone repo to your machine
 * Make virtualenv
 * `pip install -e .` to install requirements listed in setup.py
+* STOP! Go to line ~190 in scripts.py and comment it out so that you don't accidentally send a tweet  when you run tests. The line should have the `api.update_status()` method which sends the tweet.
 * `pytest` and make sure tests are working correctly
 * You may or may not need to create a directory called "logs" in the module directory, if so you'll get an error like this:
 `IOError: [Errno 2] No such file or directory: '/Users/rdenton/github/registerguard/rssonpublish/twitter-sports/logs/twitter-sports.log'`
