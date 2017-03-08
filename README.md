@@ -48,7 +48,7 @@ If you run `python main.py twitter-news` the script will go look for a `twitter-
 
 From there, the script will go get the RSS feed you specified and loop over the entries.
 
-For each entry, the script compares the id of the story to a list of ids that have already been tweeted. Of course, if this is your first time running the script, all of the ids will be new and it will want to tweet all of the stories in the feed. This is important when you push changes to live, as you don't want to spam followers. I would suggest running the script once with api.update_status() commented out to set a base list, then uncomment it when you set up the cron.
+For each entry, the script compares the id of the story to a list of ids that have already been tweeted. Of course, if this is your first time running the script, all of the ids will be new and it will want to tweet all of the stories in the feed. This is important when you push changes to live, as you don't want to spam followers. *I would suggest running the script once with api.update_status() commented out to set a base list, then uncomment it when you set up the cron*.
 
 From here, the script tests to see if the headline is bad or not, does any fixing it needs to. If there is a headline and link, then it sends the tweet and writes the list of ids to the id file
 
@@ -66,7 +66,7 @@ The config file is technically the only one you need. (Maybe the logs directory 
 ## How to push changes live
 
 * Make changes locally and commit/push to Github
-* `ssh newsoper@wave.guardnet.com`
+* `ssh newsoper@wave.guardnet.com` (See  [here](https://github.com/registerguard/tracker/wiki/Accessing-Wave%2C-the-cron-machine) [private])
 * `cd Envs/rssonpublish/rssonpublish`
 * `git remote update && git status`
 * `git pull && git status`
