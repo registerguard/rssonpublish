@@ -3,6 +3,7 @@ zzz_old/*
 zzz_old2/*
 
 *.pyc
+.pytest_cache/**
 .cache
 scratch.py
 id.txt

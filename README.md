@@ -62,7 +62,7 @@ From here, the script tests to see if the headline is bad or not, does any fixin
 
 To make an new instance, create a new directory and give it the necessary files.
 
-The config file is technically the only one you need. (Maybe the logs directory too?) With the config file set up, your id file and log file should be created automatically.
+The config file is technically the only one you need. (Maybe the logs directory too? - Yes) With the config file set up, your id file and log file should be created automatically.
 
 ## How to push changes live
 
