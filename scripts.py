@@ -40,6 +40,7 @@ def getrss(url, payload):
         # catastrophic error. bail.
         print e
         logger.error("Requests error: {}".format(e))
+        exit()
     
     #print r.url
     html = r.text
