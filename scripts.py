@@ -38,7 +38,7 @@ def getrss(url, payload):
         logger.debug("rss success")
     except requests.exceptions.RequestException as e:
         # catastrophic error. bail.
-        print e
+        print("Requests error: {}".format(e))
         logger.error("Requests error: {}".format(e))
         exit()
     
