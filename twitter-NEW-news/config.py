@@ -7,5 +7,5 @@ def info():
     #data['url'] = "http://www.registerguard.com/mobile-app/news"
     #data['payload'] = {'template': 'rss', 'mime': 'xml', 'c': '10'}
     data['url'] = 'http://www.registerguard.com/section/RSS-feed'
-    data['payload'] = {'mime':'xml', 'profileId':'1000075', 'c':'20'}
+    data['payload'] = {'mime':'xml', 'profileId':'1000075', 'c':'10'}
     return data
